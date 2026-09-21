@@ -12,6 +12,13 @@ table{width:100%;border-collapse:collapse}th,td{padding:9px;border-bottom:1px so
 .metric{background:#0e1829;border:1px solid #263552;border-radius:10px;padding:14px}
 .metric b{display:block;font-size:24px}.metric span{color:#9aabc4}
 .pill{font-size:13px;background:#263552;border-radius:999px;padding:3px 8px}.tablewrap{overflow-x:auto}code{color:#a9c7ff}
+.gamehead{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.twocol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.teamblock{background:#0e1829;border:1px solid #263552;border-radius:10px;padding:14px}
+.mini{display:grid;grid-template-columns:repeat(3,minmax(100px,1fr));gap:8px}
+.mini span,.context span{color:#9aabc4}.mini b,.context b{color:#e8eef8}
+.context{display:flex;gap:24px;flex-wrap:wrap;margin-top:14px;padding-top:12px;border-top:1px solid #263552}
+@media(max-width:760px){.twocol{grid-template-columns:1fr}.mini{grid-template-columns:repeat(2,minmax(100px,1fr))}}
 </style></head>
         <body><header><h1>EV</h1><nav><a href="index.html">NHL V2 Dashboard</a> <a href="games.html">Games</a> <a href="players.html">Players</a> <a href="form.html">Form</a> <a href="goalies.html">Goalies</a> <a href="ev.html">EV</a> <a href="analysis.html">Daily Analysis</a> <a href="betting.html">Betting Guide</a> <a href="tracking.html">Tracking</a></nav></header>
         <main><div class="card"><p>Model versus market prices and edges.</p>

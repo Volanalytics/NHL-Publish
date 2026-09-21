@@ -12,16 +12,20 @@ table{width:100%;border-collapse:collapse}th,td{padding:9px;border-bottom:1px so
 .metric{background:#0e1829;border:1px solid #263552;border-radius:10px;padding:14px}
 .metric b{display:block;font-size:24px}.metric span{color:#9aabc4}
 .pill{font-size:13px;background:#263552;border-radius:999px;padding:3px 8px}.tablewrap{overflow-x:auto}code{color:#a9c7ff}
+.gamehead{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.twocol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.teamblock{background:#0e1829;border:1px solid #263552;border-radius:10px;padding:14px}
+.mini{display:grid;grid-template-columns:repeat(3,minmax(100px,1fr));gap:8px}
+.mini span,.context span{color:#9aabc4}.mini b,.context b{color:#e8eef8}
+.context{display:flex;gap:24px;flex-wrap:wrap;margin-top:14px;padding-top:12px;border-top:1px solid #263552}
+@media(max-width:760px){.twocol{grid-template-columns:1fr}.mini{grid-template-columns:repeat(2,minmax(100px,1fr))}}
 </style></head>
         <body><header><h1>NHL V2 Dashboard</h1><nav><a href="index.html">NHL V2 Dashboard</a> <a href="games.html">Games</a> <a href="players.html">Players</a> <a href="form.html">Form</a> <a href="goalies.html">Goalies</a> <a href="ev.html">EV</a> <a href="analysis.html">Daily Analysis</a> <a href="betting.html">Betting Guide</a> <a href="tracking.html">Tracking</a></nav></header>
-        <main>
-            <div class="card"><h2>Latest run</h2><p><b>midday</b> — RUNNING<br><span class='muted'>midday-20260921T221959Z-0079cc81 | nhl-v2.0.0-dev</span></p></div>
-            <div class="card"><h2>Production projections</h2><p class='ok'><b>Production projection set:</b> midday-20260921T221959Z-0079cc81</p><p>175 lineup-filtered player projections</p><p class='warn'><b>Data-quality warnings (5):</b></p><ul><li>CHI — Roman Kantserov: NO_PRE_SLATE_HISTORY</li><li>EDM — Alex Formenton: NO_PRE_SLATE_HISTORY</li><li>FLA — Aleksander Barkov: NO_PRE_SLATE_HISTORY</li><li>NYR — Alberts Smits: UNRESOLVED_CANONICAL_ID</li><li>TOR — Gavin Mckenna: NO_PRE_SLATE_HISTORY</li></ul></div>
-            <div class="card"><h2>Database</h2><table><tr><th>Table</th><th>Rows</th></tr><tr><td>players</td><td>1,157</td></tr><tr><td>games</td><td>5</td></tr><tr><td>skater_game_logs</td><td>284,386</td></tr><tr><td>player_features</td><td>3,757,680</td></tr><tr><td>player_projections</td><td>0</td></tr><tr><td>odds_history</td><td>0</td></tr><tr><td>intelligence_items</td><td>0</td></tr><tr><td>betting_analysis</td><td>0</td></tr></table></div>
+        <main><div class="card"><h2>Latest run</h2><p><b>midday</b> — RUNNING<br><span class='muted'>midday-20260921T223539Z-f8530d05 | nhl-v2.0.0-dev</span></p></div>
+            <div class="card"><h2>Production projections</h2><p class='ok'><b>Production projection set:</b> midday-20260921T223539Z-f8530d05</p><p>175 lineup-filtered player projections</p><p class='warn'><b>Data-quality warnings (5):</b></p><ul><li>CHI — Roman Kantserov: NO_PRE_SLATE_HISTORY</li><li>EDM — Alex Formenton: NO_PRE_SLATE_HISTORY</li><li>FLA — Aleksander Barkov: NO_PRE_SLATE_HISTORY</li><li>NYR — Alberts Smits: UNRESOLVED_CANONICAL_ID</li><li>TOR — Gavin Mckenna: NO_PRE_SLATE_HISTORY</li></ul></div>
+            <div class="card"><h2>Database</h2><table><tr><th>V2 data</th><th>Rows</th></tr><tr><td>players</td><td>1,157</td></tr><tr><td>games</td><td>5</td></tr><tr><td>skater game logs</td><td>284,386</td></tr><tr><td>player features</td><td>3,910,632</td></tr><tr><td>production projection snapshots</td><td>4,820</td></tr><tr><td>goal probability snapshots</td><td>3,500</td></tr><tr><td>odds snapshots</td><td>0</td></tr><tr><td>market edges</td><td>0</td></tr><tr><td>intelligence items</td><td>1,143</td></tr><tr><td>betting analysis rows</td><td>0</td></tr><tr><td>publication runs</td><td>2</td></tr></table></div>
             <div class="card"><h2>Foundation status</h2>
-              <p class="ok">Google Sheets dependency: removed from V2 architecture.</p>
-              <p class="ok">SQLite source of truth: initialized.</p>
-              <p class="ok">Automated HTML shell: initialized.</p>
-              <p class="ok">DFO lineup eligibility and run-scoped production candidate projections: live.</p><p class="ok">Goalie context, cost-aware odds, intelligence, and betting analysis: live.</p><p class="warn">GitHub publication status is controlled by config.json publishing settings.</p>
-            </div>
-            </main></body></html>
+            <p class="ok">Google Sheets dependency: removed from V2 architecture.</p>
+            <p class="ok">SQLite source of truth: initialized.</p>
+            <p class="ok">DFO lineup eligibility and run-scoped production candidate projections: live.</p>
+            <p class="ok">Goalie context, cost-aware odds, intelligence, betting analysis, and GitHub publication: live.</p></div></main></body></html>
