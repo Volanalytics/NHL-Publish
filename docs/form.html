@@ -22,868 +22,546 @@ table{width:100%;border-collapse:collapse}th,td{padding:9px;border-bottom:1px so
 </style></head>
         <body><header><h1>Form</h1><nav><a href="index.html">NHL V2 Dashboard</a> <a href="games.html">Games</a> <a href="players.html">Players</a> <a href="form.html">Form</a> <a href="goalies.html">Goalies</a> <a href="ev.html">EV</a> <a href="analysis.html">Daily Analysis</a> <a href="betting.html">Betting Guide</a> <a href="tracking.html">Tracking</a></nav></header>
         <main><div class="card"><h2>Form & venue research</h2>
-    <p><b>Run:</b> midday-20260922T031422Z-0980347c &nbsp; <b>Slate:</b> 2026-09-29 &nbsp; <b>Players:</b> 175</p>
+    <p><b>Run:</b> midday-20260923T170004Z-61ec6379 &nbsp; <b>Slate:</b> 2026-09-23 &nbsp; <b>Players:</b> 93</p>
     <p class="muted">Canonical player_features dimensions are used directly: feature_name + window_name + venue. EV5 is shown separately from PP so per-60 rates are not incorrectly added across strengths. Home/away remains research-only and does not alter production projections.</p>
     <p class="muted"><b>Windows:</b> FS, L10, L20 &nbsp; <b>Venues:</b> A, ALL, H</p></div>
     <div class="card tablewrap"><table><thead><tr><th>Team</th><th>Player</th>
     <th>EV5 SOG60 FS</th><th>EV5 SOG60 L20</th><th>EV5 SOG60 L10</th>
     <th>Home FS</th><th>Home N</th><th>Away FS</th><th>Away N</th><th>H-A Δ</th>
     <th>EV5 ixG60 FS</th><th>EV5 iCF60 FS</th><th>EV5 iHDCF60 FS</th><th>EV5 TOI/GP</th>
-    <th>PP ixG60 FS</th><th>PP TOI/GP</th></tr></thead><tbody><tr><td>BOS</td><td>Alex Steeves</td>
-        <td>6.25</td><td>5.86</td>
-        <td>6.18</td>
-        <td>6.70</td><td>19</td>
-        <td>5.89</td><td>24</td><td>0.81</td>
-        <td>0.74</td><td>12.37</td>
-        <td>3.40</td><td>10.27</td>
-        <td>1.25</td><td>0.92</td></tr><tr><td>BOS</td><td>Casey Mittelstadt</td>
-        <td>4.31</td><td>4.67</td>
-        <td>4.60</td>
-        <td>5.31</td><td>38</td>
-        <td>3.15</td><td>33</td><td>2.17</td>
-        <td>0.56</td><td>8.75</td>
-        <td>2.58</td><td>12.75</td>
-        <td>1.17</td><td>1.72</td></tr><tr><td>BOS</td><td>Charlie McAvoy</td>
-        <td>4.26</td><td>4.58</td>
-        <td>3.53</td>
-        <td>4.52</td><td>36</td>
-        <td>3.97</td><td>33</td><td>0.55</td>
-        <td>0.29</td><td>9.91</td>
-        <td>1.03</td><td>16.94</td>
-        <td>0.63</td><td>2.93</td></tr><tr><td>BOS</td><td>David Pastrnak</td>
-        <td>8.57</td><td>8.01</td>
-        <td>7.61</td>
-        <td>8.85</td><td>37</td>
-        <td>8.33</td><td>40</td><td>0.51</td>
-        <td>0.76</td><td>17.80</td>
-        <td>2.77</td><td>15.45</td>
-        <td>1.77</td><td>3.51</td></tr><tr><td>BOS</td><td>Elias Lindholm</td>
-        <td>5.01</td><td>5.65</td>
-        <td>4.39</td>
-        <td>4.75</td><td>36</td>
-        <td>5.29</td><td>33</td><td>-0.54</td>
-        <td>0.69</td><td>11.63</td>
-        <td>3.34</td><td>13.01</td>
-        <td>2.45</td><td>2.63</td></tr><tr><td>BOS</td><td>Fraser Minten</td>
-        <td>5.28</td><td>4.89</td>
-        <td>4.69</td>
-        <td>5.81</td><td>41</td>
-        <td>4.78</td><td>41</td><td>1.03</td>
-        <td>0.66</td><td>10.91</td>
-        <td>3.32</td><td>12.34</td>
-        <td>2.31</td><td>0.98</td></tr><tr><td>BOS</td><td>Hampus Lindholm</td>
-        <td>3.98</td><td>3.30</td>
-        <td>3.31</td>
-        <td>3.28</td><td>31</td>
-        <td>4.57</td><td>36</td><td>-1.29</td>
-        <td>0.17</td><td>10.12</td>
-        <td>0.39</td><td>16.19</td>
-        <td>0.90</td><td>1.42</td></tr><tr><td>BOS</td><td>Henri Jokiharju</td>
-        <td>3.04</td><td>3.36</td>
-        <td>3.59</td>
-        <td>3.48</td><td>21</td>
-        <td>2.60</td><td>20</td><td>0.88</td>
-        <td>0.15</td><td>8.84</td>
-        <td>0.09</td><td>15.88</td>
-        <td>0.54</td><td>0.60</td></tr><tr><td>BOS</td><td>JJ Peterka</td>
-        <td>7.25</td><td>7.41</td>
-        <td>9.01</td>
-        <td>7.24</td><td>41</td>
-        <td>7.26</td><td>41</td><td>-0.02</td>
-        <td>0.68</td><td>15.30</td>
-        <td>2.52</td><td>13.63</td>
-        <td>1.01</td><td>1.91</td></tr><tr><td>BOS</td><td>James Hagens</td>
-        <td>4.12</td><td>4.12</td>
-        <td>4.12</td>
-        <td>3.76</td><td>1</td>
-        <td>4.57</td><td>1</td><td>-0.81</td>
-        <td>0.33</td><td>10.31</td>
-        <td>0.00</td><td>14.55</td>
-        <td>—</td><td>0.00</td></tr><tr><td>BOS</td><td>Marat Khusnutdinov</td>
-        <td>4.23</td><td>3.02</td>
-        <td>2.31</td>
-        <td>4.05</td><td>38</td>
-        <td>4.40</td><td>39</td><td>-0.35</td>
-        <td>0.57</td><td>8.08</td>
-        <td>2.76</td><td>12.15</td>
-        <td>1.37</td><td>0.64</td></tr><tr><td>BOS</td><td>Mark Kastelic</td>
-        <td>5.99</td><td>6.49</td>
-        <td>6.53</td>
-        <td>6.60</td><td>41</td>
-        <td>5.37</td><td>41</td><td>1.23</td>
-        <td>0.98</td><td>13.84</td>
-        <td>4.64</td><td>10.25</td>
-        <td>0.00</td><td>0.08</td></tr><tr><td>BOS</td><td>Mason Lohrei</td>
-        <td>3.12</td><td>2.76</td>
-        <td>2.69</td>
-        <td>3.65</td><td>36</td>
-        <td>2.61</td><td>37</td><td>1.04</td>
-        <td>0.20</td><td>8.74</td>
-        <td>0.39</td><td>14.77</td>
-        <td>0.91</td><td>1.36</td></tr><tr><td>BOS</td><td>Morgan Geekie</td>
-        <td>6.31</td><td>5.32</td>
-        <td>6.06</td>
-        <td>6.82</td><td>40</td>
-        <td>5.82</td><td>41</td><td>1.00</td>
-        <td>0.72</td><td>12.40</td>
-        <td>3.13</td><td>13.50</td>
-        <td>2.05</td><td>2.85</td></tr><tr><td>BOS</td><td>Nikita Zadorov</td>
-        <td>3.97</td><td>4.95</td>
-        <td>3.68</td>
-        <td>3.87</td><td>41</td>
-        <td>4.06</td><td>40</td><td>-0.19</td>
-        <td>0.14</td><td>9.96</td>
-        <td>0.17</td><td>17.18</td>
-        <td>1.25</td><td>0.08</td></tr><tr><td>BOS</td><td>Pavel Zacha</td>
-        <td>5.21</td><td>4.61</td>
-        <td>4.64</td>
-        <td>5.38</td><td>40</td>
-        <td>5.03</td><td>38</td><td>0.34</td>
-        <td>0.64</td><td>9.32</td>
-        <td>2.96</td><td>11.96</td>
-        <td>2.52</td><td>2.82</td></tr><tr><td>BOS</td><td>Sean Kuraly</td>
-        <td>6.77</td><td>7.41</td>
-        <td>6.97</td>
-        <td>6.18</td><td>41</td>
-        <td>7.41</td><td>41</td><td>-1.23</td>
-        <td>0.63</td><td>12.55</td>
-        <td>2.75</td><td>10.38</td>
-        <td>0.00</td><td>0.06</td></tr><tr><td>BOS</td><td>Will Borgen</td>
-        <td>3.37</td><td>2.75</td>
-        <td>1.64</td>
-        <td>3.06</td><td>39</td>
-        <td>3.71</td><td>36</td><td>-0.65</td>
-        <td>0.10</td><td>9.08</td>
-        <td>0.16</td><td>15.43</td>
-        <td>0.00</td><td>0.04</td></tr><tr><td>CAR</td><td>Andrei Svechnikov</td>
-        <td>8.29</td><td>7.59</td>
-        <td>9.22</td>
-        <td>8.00</td><td>41</td>
-        <td>8.62</td><td>38</td><td>-0.63</td>
-        <td>0.96</td><td>17.22</td>
-        <td>3.74</td><td>13.01</td>
-        <td>2.08</td><td>2.75</td></tr><tr><td>CAR</td><td>Eric Robinson</td>
-        <td>6.77</td><td>5.77</td>
-        <td>5.11</td>
-        <td>7.28</td><td>33</td>
-        <td>6.29</td><td>34</td><td>0.99</td>
-        <td>0.96</td><td>15.02</td>
-        <td>5.10</td><td>10.19</td>
-        <td>4.52</td><td>0.05</td></tr><tr><td>CAR</td><td>Jaccob Slavin</td>
-        <td>5.16</td><td>5.58</td>
-        <td>4.81</td>
-        <td>3.77</td><td>20</td>
-        <td>6.56</td><td>19</td><td>-2.79</td>
-        <td>0.18</td><td>10.49</td>
-        <td>0.45</td><td>17.01</td>
-        <td>0.72</td><td>0.09</td></tr><tr><td>CAR</td><td>Jackson Blake</td>
-        <td>7.01</td><td>8.76</td>
-        <td>8.33</td>
-        <td>6.96</td><td>41</td>
-        <td>7.06</td><td>40</td><td>-0.10</td>
-        <td>1.09</td><td>14.56</td>
-        <td>5.15</td><td>13.53</td>
-        <td>1.56</td><td>2.09</td></tr><tr><td>CAR</td><td>Jalen Chatfield</td>
-        <td>4.19</td><td>4.89</td>
-        <td>4.66</td>
-        <td>3.65</td><td>37</td>
-        <td>4.73</td><td>35</td><td>-1.08</td>
-        <td>0.19</td><td>11.95</td>
-        <td>0.39</td><td>17.08</td>
-        <td>0.28</td><td>0.06</td></tr><tr><td>CAR</td><td>Jordan Martinook</td>
-        <td>5.90</td><td>6.36</td>
-        <td>4.74</td>
-        <td>6.51</td><td>40</td>
-        <td>5.23</td><td>37</td><td>1.28</td>
-        <td>0.79</td><td>14.03</td>
-        <td>4.00</td><td>12.28</td>
-        <td>0.00</td><td>0.04</td></tr><tr><td>CAR</td><td>Jordan Staal</td>
-        <td>5.24</td><td>5.75</td>
-        <td>6.60</td>
-        <td>5.17</td><td>39</td>
-        <td>5.30</td><td>36</td><td>-0.13</td>
-        <td>0.86</td><td>11.11</td>
-        <td>4.09</td><td>12.53</td>
-        <td>3.98</td><td>0.78</td></tr><tr><td>CAR</td><td>K&#x27;Andre Miller</td>
-        <td>4.91</td><td>5.17</td>
-        <td>6.27</td>
-        <td>5.40</td><td>37</td>
-        <td>4.39</td><td>35</td><td>1.01</td>
-        <td>0.21</td><td>12.39</td>
-        <td>0.59</td><td>18.49</td>
-        <td>0.56</td><td>0.96</td></tr><tr><td>CAR</td><td>Logan Stankoven</td>
-        <td>7.55</td><td>7.80</td>
-        <td>9.16</td>
-        <td>7.25</td><td>41</td>
-        <td>7.87</td><td>40</td><td>-0.62</td>
-        <td>1.02</td><td>14.17</td>
-        <td>4.19</td><td>13.44</td>
-        <td>2.79</td><td>1.55</td></tr><tr><td>CAR</td><td>Mark Jankowski</td>
-        <td>5.41</td><td>6.40</td>
-        <td>5.05</td>
-        <td>5.16</td><td>33</td>
-        <td>5.63</td><td>35</td><td>-0.47</td>
-        <td>0.99</td><td>11.64</td>
-        <td>5.31</td><td>9.63</td>
-        <td>0.00</td><td>0.27</td></tr><tr><td>CAR</td><td>Mike Reilly</td>
-        <td>5.82</td><td>5.84</td>
-        <td>5.66</td>
-        <td>5.66</td><td>16</td>
-        <td>5.93</td><td>26</td><td>-0.27</td>
-        <td>0.20</td><td>14.39</td>
-        <td>0.21</td><td>13.50</td>
-        <td>0.23</td><td>0.13</td></tr><tr><td>CAR</td><td>Nicolas Deslauriers</td>
-        <td>4.12</td><td>4.89</td>
-        <td>4.08</td>
-        <td>2.64</td><td>14</td>
-        <td>5.26</td><td>17</td><td>-2.62</td>
-        <td>0.48</td><td>8.25</td>
-        <td>1.83</td><td>8.45</td>
-        <td>0.00</td><td>0.00</td></tr><tr><td>CAR</td><td>Nikolaj Ehlers</td>
-        <td>8.33</td><td>8.12</td>
-        <td>9.26</td>
-        <td>7.37</td><td>41</td>
-        <td>9.29</td><td>41</td><td>-1.92</td>
-        <td>0.74</td><td>17.75</td>
-        <td>2.53</td><td>12.74</td>
-        <td>1.04</td><td>2.65</td></tr><tr><td>CAR</td><td>Sean Walker</td>
-        <td>6.63</td><td>7.55</td>
-        <td>7.43</td>
-        <td>5.80</td><td>41</td>
-        <td>7.48</td><td>40</td><td>-1.69</td>
-        <td>0.28</td><td>16.68</td>
-        <td>0.54</td><td>17.98</td>
-        <td>1.52</td><td>0.75</td></tr><tr><td>CAR</td><td>Sebastian Aho</td>
-        <td>6.96</td><td>8.67</td>
-        <td>8.69</td>
-        <td>8.06</td><td>41</td>
-        <td>5.76</td><td>38</td><td>2.30</td>
-        <td>0.89</td><td>14.27</td>
-        <td>3.65</td><td>13.31</td>
-        <td>1.59</td><td>2.89</td></tr><tr><td>CAR</td><td>Shayne Gostisbehere</td>
-        <td>5.95</td><td>6.24</td>
-        <td>5.41</td>
-        <td>5.93</td><td>30</td>
-        <td>5.97</td><td>25</td><td>-0.05</td>
-        <td>0.27</td><td>13.13</td>
-        <td>0.44</td><td>15.04</td>
-        <td>1.04</td><td>3.00</td></tr><tr><td>CAR</td><td>Taylor Hall</td>
-        <td>6.54</td><td>6.26</td>
-        <td>7.56</td>
-        <td>6.35</td><td>41</td>
-        <td>6.74</td><td>39</td><td>-0.39</td>
-        <td>0.80</td><td>13.98</td>
-        <td>3.60</td><td>12.50</td>
-        <td>2.52</td><td>1.65</td></tr><tr><td>CAR</td><td>William Carrier</td>
-        <td>6.49</td><td>6.77</td>
-        <td>5.56</td>
-        <td>7.84</td><td>36</td>
-        <td>5.10</td><td>34</td><td>2.74</td>
-        <td>0.82</td><td>13.62</td>
-        <td>5.03</td><td>10.57</td>
-        <td>3.77</td><td>0.03</td></tr><tr><td>CHI</td><td>Alex Vlasic</td>
-        <td>3.31</td><td>3.83</td>
-        <td>3.40</td>
-        <td>3.81</td><td>41</td>
-        <td>2.83</td><td>40</td><td>0.97</td>
-        <td>0.12</td><td>8.41</td>
-        <td>0.25</td><td>17.45</td>
-        <td>0.81</td><td>0.07</td></tr><tr><td>CHI</td><td>Anton Frondell</td>
-        <td>9.30</td><td>9.30</td>
-        <td>8.48</td>
-        <td>9.91</td><td>5</td>
-        <td>8.88</td><td>7</td><td>1.03</td>
-        <td>0.72</td><td>16.38</td>
-        <td>2.98</td><td>13.43</td>
-        <td>2.44</td><td>3.26</td></tr><tr><td>CHI</td><td>Artyom Levshunov</td>
-        <td>3.52</td><td>2.80</td>
-        <td>4.20</td>
-        <td>3.89</td><td>33</td>
-        <td>3.16</td><td>35</td><td>0.73</td>
-        <td>0.16</td><td>9.34</td>
-        <td>0.46</td><td>15.30</td>
-        <td>0.44</td><td>2.62</td></tr><tr><td>CHI</td><td>Bowen Byram</td>
-        <td>3.38</td><td>3.90</td>
-        <td>3.49</td>
-        <td>3.58</td><td>41</td>
-        <td>3.18</td><td>41</td><td>0.40</td>
-        <td>0.28</td><td>7.57</td>
-        <td>0.69</td><td>17.97</td>
-        <td>0.74</td><td>1.56</td></tr><tr><td>CHI</td><td>Cole Smith</td>
-        <td>4.94</td><td>4.76</td>
-        <td>5.52</td>
-        <td>5.46</td><td>34</td>
-        <td>4.32</td><td>29</td><td>1.14</td>
-        <td>0.82</td><td>11.08</td>
-        <td>5.20</td><td>11.00</td>
-        <td>0.00</td><td>0.06</td></tr><tr><td>CHI</td><td>Frank Nazar</td>
-        <td>6.21</td><td>6.21</td>
-        <td>6.05</td>
-        <td>6.30</td><td>29</td>
-        <td>6.15</td><td>37</td><td>0.15</td>
-        <td>0.76</td><td>12.08</td>
-        <td>3.31</td><td>13.17</td>
-        <td>1.62</td><td>3.01</td></tr><tr><td>CHI</td><td>Ian Cole</td>
-        <td>2.88</td><td>3.43</td>
-        <td>4.03</td>
-        <td>2.98</td><td>41</td>
-        <td>2.78</td><td>41</td><td>0.20</td>
-        <td>0.21</td><td>8.48</td>
-        <td>0.25</td><td>14.75</td>
-        <td>0.00</td><td>0.04</td></tr><tr><td>CHI</td><td>Jordan Greenway</td>
-        <td>4.64</td><td>4.40</td>
-        <td>3.86</td>
-        <td>1.20</td><td>20</td>
-        <td>7.88</td><td>20</td><td>-6.69</td>
-        <td>0.43</td><td>9.42</td>
-        <td>1.01</td><td>10.35</td>
-        <td>0.00</td><td>0.02</td></tr><tr><td>CHI</td><td>Nick Lardis</td>
-        <td>5.85</td><td>5.89</td>
-        <td>8.61</td>
-        <td>4.86</td><td>23</td>
-        <td>7.11</td><td>18</td><td>-2.25</td>
-        <td>0.76</td><td>12.65</td>
-        <td>2.99</td><td>10.76</td>
-        <td>1.19</td><td>1.43</td></tr><tr><td>CHI</td><td>Oliver Moore</td>
-        <td>5.03</td><td>4.37</td>
-        <td>4.37</td>
-        <td>3.29</td><td>26</td>
-        <td>6.91</td><td>25</td><td>-3.62</td>
-        <td>0.61</td><td>10.06</td>
-        <td>2.57</td><td>11.00</td>
-        <td>0.99</td><td>1.02</td></tr><tr><td>CHI</td><td>Patrick Kane</td>
-        <td>7.80</td><td>7.77</td>
-        <td>5.19</td>
-        <td>7.51</td><td>35</td>
-        <td>8.10</td><td>32</td><td>-0.58</td>
-        <td>0.76</td><td>14.09</td>
-        <td>2.62</td><td>13.67</td>
-        <td>1.47</td><td>3.06</td></tr><tr><td>CHI</td><td>Ryan Donato</td>
-        <td>5.07</td><td>4.49</td>
-        <td>3.34</td>
-        <td>5.79</td><td>41</td>
-        <td>4.34</td><td>41</td><td>1.44</td>
-        <td>0.65</td><td>12.46</td>
-        <td>3.13</td><td>12.86</td>
-        <td>2.12</td><td>1.38</td></tr><tr><td>CHI</td><td>Ryan Greene</td>
-        <td>4.68</td><td>3.89</td>
-        <td>3.74</td>
-        <td>5.25</td><td>41</td>
-        <td>4.12</td><td>40</td><td>1.13</td>
-        <td>0.64</td><td>8.79</td>
-        <td>2.87</td><td>13.15</td>
-        <td>1.00</td><td>1.23</td></tr><tr><td>CHI</td><td>Sam Rinzel</td>
-        <td>4.83</td><td>3.93</td>
-        <td>3.62</td>
-        <td>4.66</td><td>25</td>
-        <td>4.98</td><td>29</td><td>-0.32</td>
-        <td>0.22</td><td>11.46</td>
-        <td>0.14</td><td>15.41</td>
-        <td>0.60</td><td>2.01</td></tr><tr><td>CHI</td><td>Teuvo Teravainen</td>
-        <td>3.61</td><td>3.63</td>
-        <td>3.24</td>
-        <td>4.11</td><td>36</td>
-        <td>3.18</td><td>39</td><td>0.94</td>
-        <td>0.31</td><td>8.34</td>
-        <td>1.58</td><td>12.19</td>
-        <td>1.21</td><td>2.62</td></tr><tr><td>CHI</td><td>Tyler Bertuzzi</td>
-        <td>5.88</td><td>5.55</td>
-        <td>5.46</td>
-        <td>5.78</td><td>38</td>
-        <td>5.98</td><td>41</td><td>-0.21</td>
-        <td>0.81</td><td>10.72</td>
-        <td>3.84</td><td>14.46</td>
-        <td>2.49</td><td>3.06</td></tr><tr><td>CHI</td><td>Wyatt Kaiser</td>
-        <td>3.16</td><td>2.59</td>
-        <td>2.54</td>
-        <td>3.41</td><td>41</td>
-        <td>2.86</td><td>36</td><td>0.55</td>
-        <td>0.16</td><td>7.64</td>
-        <td>0.41</td><td>17.04</td>
-        <td>0.00</td><td>0.07</td></tr><tr><td>EDM</td><td>Colton Dach</td>
-        <td>5.02</td><td>4.68</td>
-        <td>4.50</td>
-        <td>4.24</td><td>31</td>
-        <td>5.81</td><td>30</td><td>-1.57</td>
-        <td>0.68</td><td>11.71</td>
-        <td>3.07</td><td>10.58</td>
-        <td>1.28</td><td>0.72</td></tr><tr><td>EDM</td><td>Connor McDavid</td>
-        <td>7.82</td><td>7.88</td>
-        <td>9.47</td>
-        <td>9.43</td><td>41</td>
-        <td>6.21</td><td>41</td><td>3.22</td>
-        <td>0.95</td><td>13.95</td>
-        <td>3.97</td><td>16.94</td>
-        <td>2.64</td><td>3.41</td></tr><tr><td>EDM</td><td>Connor Murphy</td>
-        <td>3.53</td><td>2.35</td>
-        <td>2.60</td>
-        <td>3.60</td><td>42</td>
-        <td>3.45</td><td>38</td><td>0.15</td>
-        <td>0.14</td><td>8.45</td>
-        <td>0.31</td><td>14.46</td>
-        <td>0.00</td><td>0.03</td></tr><tr><td>EDM</td><td>Evan Bouchard</td>
-        <td>5.69</td><td>4.80</td>
-        <td>3.33</td>
-        <td>5.35</td><td>41</td>
-        <td>6.03</td><td>41</td><td>-0.68</td>
-        <td>0.31</td><td>12.61</td>
-        <td>0.45</td><td>17.88</td>
-        <td>0.94</td><td>3.43</td></tr><tr><td>EDM</td><td>Isaac Howard</td>
-        <td>7.62</td><td>7.94</td>
-        <td>8.43</td>
-        <td>7.18</td><td>17</td>
-        <td>8.34</td><td>12</td><td>-1.16</td>
-        <td>0.86</td><td>15.04</td>
-        <td>3.39</td><td>9.77</td>
-        <td>0.76</td><td>0.49</td></tr><tr><td>EDM</td><td>Jake Walman</td>
-        <td>5.76</td><td>6.43</td>
-        <td>6.27</td>
-        <td>6.06</td><td>27</td>
-        <td>5.46</td><td>26</td><td>0.60</td>
-        <td>0.23</td><td>12.61</td>
-        <td>0.41</td><td>16.52</td>
-        <td>1.22</td><td>0.67</td></tr><tr><td>EDM</td><td>Jason Dickinson</td>
-        <td>4.84</td><td>4.27</td>
-        <td>5.24</td>
-        <td>5.61</td><td>34</td>
-        <td>3.98</td><td>30</td><td>1.63</td>
-        <td>0.48</td><td>9.97</td>
-        <td>2.02</td><td>12.98</td>
-        <td>0.62</td><td>0.09</td></tr><tr><td>EDM</td><td>Kasperi Kapanen</td>
-        <td>6.70</td><td>4.49</td>
-        <td>5.26</td>
-        <td>7.49</td><td>22</td>
-        <td>5.84</td><td>19</td><td>1.65</td>
-        <td>0.59</td><td>11.72</td>
-        <td>2.68</td><td>13.11</td>
-        <td>0.34</td><td>0.26</td></tr><tr><td>EDM</td><td>Leon Draisaitl</td>
-        <td>5.59</td><td>6.12</td>
-        <td>4.74</td>
-        <td>7.08</td><td>30</td>
-        <td>4.38</td><td>35</td><td>2.70</td>
-        <td>0.65</td><td>11.06</td>
-        <td>2.02</td><td>16.02</td>
-        <td>2.91</td><td>3.40</td></tr><tr><td>EDM</td><td>Mathieu Joseph</td>
-        <td>3.72</td><td>2.64</td>
-        <td>3.98</td>
-        <td>2.40</td><td>27</td>
-        <td>5.22</td><td>24</td><td>-2.82</td>
-        <td>0.54</td><td>8.82</td>
-        <td>3.51</td><td>11.07</td>
-        <td>0.00</td><td>0.05</td></tr><tr><td>EDM</td><td>Mattias Ekholm</td>
-        <td>4.91</td><td>4.16</td>
-        <td>2.52</td>
-        <td>4.86</td><td>41</td>
-        <td>4.96</td><td>41</td><td>-0.11</td>
-        <td>0.27</td><td>11.75</td>
-        <td>1.09</td><td>17.43</td>
-        <td>0.30</td><td>0.47</td></tr><tr><td>EDM</td><td>Ryan Nugent-Hopkins</td>
-        <td>5.21</td><td>5.13</td>
-        <td>4.89</td>
-        <td>4.22</td><td>39</td>
-        <td>6.36</td><td>33</td><td>-2.14</td>
-        <td>0.63</td><td>10.80</td>
-        <td>3.14</td><td>13.27</td>
-        <td>1.47</td><td>3.35</td></tr><tr><td>EDM</td><td>Ryan Shea</td>
-        <td>3.25</td><td>1.98</td>
-        <td>2.27</td>
-        <td>2.98</td><td>40</td>
-        <td>3.50</td><td>40</td><td>-0.53</td>
-        <td>0.16</td><td>8.49</td>
-        <td>0.28</td><td>15.90</td>
-        <td>0.00</td><td>0.17</td></tr><tr><td>EDM</td><td>Shakir Mukhamadullin</td>
-        <td>3.82</td><td>4.06</td>
-        <td>3.74</td>
-        <td>3.56</td><td>27</td>
-        <td>4.11</td><td>23</td><td>-0.55</td>
-        <td>0.15</td><td>8.81</td>
-        <td>0.47</td><td>15.40</td>
-        <td>0.00</td><td>0.06</td></tr><tr><td>EDM</td><td>Trent Frederic</td>
-        <td>5.75</td><td>7.21</td>
-        <td>7.40</td>
-        <td>5.24</td><td>36</td>
-        <td>6.20</td><td>38</td><td>-0.95</td>
-        <td>0.76</td><td>10.15</td>
-        <td>3.81</td><td>10.86</td>
-        <td>2.52</td><td>0.13</td></tr><tr><td>EDM</td><td>Vasily Podkolzin</td>
-        <td>6.19</td><td>6.28</td>
-        <td>6.31</td>
-        <td>6.63</td><td>41</td>
-        <td>5.77</td><td>41</td><td>0.86</td>
-        <td>0.69</td><td>10.13</td>
-        <td>3.31</td><td>13.94</td>
-        <td>3.24</td><td>0.44</td></tr><tr><td>EDM</td><td>Zach Hyman</td>
-        <td>7.29</td><td>5.57</td>
-        <td>5.37</td>
-        <td>8.43</td><td>31</td>
-        <td>6.02</td><td>27</td><td>2.41</td>
-        <td>1.29</td><td>13.57</td>
-        <td>7.50</td><td>15.32</td>
-        <td>3.26</td><td>3.45</td></tr><tr><td>FLA</td><td>Aaron Ekblad</td>
-        <td>3.70</td><td>4.42</td>
-        <td>4.59</td>
-        <td>4.70</td><td>37</td>
-        <td>2.62</td><td>35</td><td>2.08</td>
-        <td>0.17</td><td>9.17</td>
-        <td>0.30</td><td>16.45</td>
-        <td>0.57</td><td>2.07</td></tr><tr><td>FLA</td><td>Anton Lundell</td>
-        <td>6.59</td><td>5.91</td>
-        <td>3.49</td>
-        <td>6.92</td><td>32</td>
-        <td>6.26</td><td>32</td><td>0.66</td>
-        <td>0.83</td><td>13.54</td>
-        <td>3.80</td><td>13.09</td>
-        <td>1.57</td><td>2.57</td></tr><tr><td>FLA</td><td>Brady Tkachuk</td>
-        <td>11.67</td><td>10.18</td>
-        <td>9.16</td>
-        <td>11.64</td><td>30</td>
-        <td>11.69</td><td>30</td><td>-0.04</td>
-        <td>1.13</td><td>19.26</td>
-        <td>4.63</td><td>12.52</td>
-        <td>3.25</td><td>3.15</td></tr><tr><td>FLA</td><td>Carter Verhaeghe</td>
-        <td>7.15</td><td>7.92</td>
-        <td>7.71</td>
-        <td>7.45</td><td>37</td>
-        <td>6.87</td><td>40</td><td>0.58</td>
-        <td>0.80</td><td>15.35</td>
-        <td>3.41</td><td>13.96</td>
-        <td>1.90</td><td>2.59</td></tr><tr><td>FLA</td><td>Cole Schwindt</td>
-        <td>5.33</td><td>5.53</td>
-        <td>6.66</td>
-        <td>6.53</td><td>14</td>
-        <td>4.30</td><td>15</td><td>2.23</td>
-        <td>0.73</td><td>8.80</td>
-        <td>4.40</td><td>8.93</td>
-        <td>2.72</td><td>0.23</td></tr><tr><td>FLA</td><td>Dmitry Kulikov</td>
-        <td>2.77</td><td>2.77</td>
-        <td>3.24</td>
-        <td>2.20</td><td>7</td>
-        <td>3.09</td><td>12</td><td>-0.89</td>
-        <td>0.09</td><td>7.31</td>
-        <td>0.20</td><td>15.97</td>
-        <td>0.00</td><td>0.06</td></tr><tr><td>FLA</td><td>Eetu Luostarinen</td>
-        <td>5.05</td><td>4.54</td>
-        <td>5.56</td>
-        <td>6.10</td><td>34</td>
-        <td>4.09</td><td>39</td><td>2.01</td>
-        <td>0.69</td><td>9.91</td>
-        <td>3.72</td><td>13.02</td>
-        <td>3.44</td><td>1.09</td></tr><tr><td>FLA</td><td>Garnet Hathaway</td>
-        <td>3.10</td><td>3.89</td>
-        <td>4.16</td>
-        <td>4.09</td><td>33</td>
-        <td>2.05</td><td>33</td><td>2.04</td>
-        <td>0.37</td><td>6.79</td>
-        <td>2.10</td><td>9.10</td>
-        <td>0.00</td><td>0.04</td></tr><tr><td>FLA</td><td>Gustav Forsling</td>
-        <td>4.11</td><td>5.41</td>
-        <td>6.44</td>
-        <td>3.59</td><td>40</td>
-        <td>4.65</td><td>40</td><td>-1.06</td>
-        <td>0.16</td><td>10.53</td>
-        <td>0.21</td><td>17.87</td>
-        <td>0.46</td><td>0.60</td></tr><tr><td>FLA</td><td>Lars Eller</td>
-        <td>5.48</td><td>5.74</td>
-        <td>3.45</td>
-        <td>5.90</td><td>32</td>
-        <td>5.11</td><td>36</td><td>0.79</td>
-        <td>0.59</td><td>9.81</td>
-        <td>3.18</td><td>9.98</td>
-        <td>1.85</td><td>0.45</td></tr><tr><td>FLA</td><td>Matthew Tkachuk</td>
-        <td>6.99</td><td>7.59</td>
-        <td>6.96</td>
-        <td>5.06</td><td>14</td>
-        <td>8.63</td><td>17</td><td>-3.57</td>
-        <td>1.19</td><td>15.57</td>
-        <td>6.40</td><td>13.30</td>
-        <td>4.02</td><td>3.28</td></tr><tr><td>FLA</td><td>Niko Mikkola</td>
-        <td>3.03</td><td>2.73</td>
-        <td>3.65</td>
-        <td>2.09</td><td>35</td>
-        <td>4.05</td><td>33</td><td>-1.97</td>
-        <td>0.19</td><td>8.28</td>
-        <td>0.67</td><td>17.16</td>
-        <td>1.01</td><td>0.15</td></tr><tr><td>FLA</td><td>Radko Gudas</td>
-        <td>4.50</td><td>4.29</td>
-        <td>4.47</td>
-        <td>5.09</td><td>29</td>
-        <td>3.84</td><td>27</td><td>1.25</td>
-        <td>0.15</td><td>12.38</td>
-        <td>0.45</td><td>14.28</td>
-        <td>6.30</td><td>0.04</td></tr><tr><td>FLA</td><td>Sam Bennett</td>
-        <td>8.18</td><td>6.43</td>
-        <td>6.97</td>
-        <td>8.74</td><td>39</td>
-        <td>7.60</td><td>37</td><td>1.15</td>
-        <td>1.01</td><td>16.61</td>
-        <td>4.36</td><td>13.21</td>
-        <td>1.95</td><td>3.16</td></tr><tr><td>FLA</td><td>Sam Reinhart</td>
-        <td>4.87</td><td>5.14</td>
-        <td>5.36</td>
-        <td>5.44</td><td>34</td>
-        <td>4.23</td><td>30</td><td>1.21</td>
-        <td>0.76</td><td>12.77</td>
-        <td>3.30</td><td>13.65</td>
-        <td>3.70</td><td>3.98</td></tr><tr><td>FLA</td><td>Sandis Vilmanis</td>
-        <td>4.82</td><td>4.82</td>
-        <td>4.36</td>
-        <td>5.74</td><td>7</td>
-        <td>4.35</td><td>12</td><td>1.38</td>
-        <td>0.65</td><td>9.32</td>
-        <td>2.89</td><td>9.83</td>
-        <td>0.00</td><td>0.28</td></tr><tr><td>FLA</td><td>Seth Jones</td>
-        <td>3.41</td><td>3.13</td>
-        <td>1.71</td>
-        <td>4.08</td><td>29</td>
-        <td>2.61</td><td>23</td><td>1.47</td>
-        <td>0.16</td><td>8.57</td>
-        <td>0.42</td><td>16.56</td>
-        <td>0.95</td><td>3.45</td></tr><tr><td>MTL</td><td>Adam Engstrom</td>
-        <td>3.52</td><td>3.52</td>
-        <td>4.18</td>
-        <td>4.48</td><td>7</td>
-        <td>2.55</td><td>8</td><td>1.93</td>
-        <td>0.14</td><td>8.95</td>
-        <td>0.00</td><td>12.51</td>
-        <td>0.00</td><td>0.23</td></tr><tr><td>MTL</td><td>Alex Newhook</td>
-        <td>5.10</td><td>6.58</td>
-        <td>6.59</td>
-        <td>4.66</td><td>22</td>
-        <td>5.58</td><td>20</td><td>-0.92</td>
-        <td>0.61</td><td>10.45</td>
-        <td>3.16</td><td>11.76</td>
-        <td>1.65</td><td>1.02</td></tr><tr><td>MTL</td><td>Alexandre Carrier</td>
-        <td>2.79</td><td>2.30</td>
-        <td>0.41</td>
-        <td>3.44</td><td>37</td>
-        <td>2.10</td><td>36</td><td>1.34</td>
-        <td>0.17</td><td>7.29</td>
-        <td>0.48</td><td>15.33</td>
-        <td>0.00</td><td>0.03</td></tr><tr><td>MTL</td><td>Chris Kreider</td>
-        <td>5.59</td><td>6.04</td>
-        <td>6.96</td>
-        <td>5.67</td><td>40</td>
-        <td>5.50</td><td>35</td><td>0.18</td>
-        <td>0.80</td><td>12.60</td>
-        <td>4.69</td><td>12.45</td>
-        <td>2.18</td><td>3.12</td></tr><tr><td>MTL</td><td>Cole Caufield</td>
-        <td>9.11</td><td>11.26</td>
-        <td>13.35</td>
-        <td>8.76</td><td>41</td>
-        <td>9.46</td><td>40</td><td>-0.70</td>
-        <td>1.14</td><td>17.01</td>
-        <td>3.65</td><td>13.41</td>
-        <td>2.75</td><td>3.12</td></tr><tr><td>MTL</td><td>Ivan Demidov</td>
-        <td>5.21</td><td>5.87</td>
-        <td>5.49</td>
-        <td>5.49</td><td>41</td>
-        <td>4.92</td><td>41</td><td>0.57</td>
-        <td>0.58</td><td>10.94</td>
-        <td>2.19</td><td>11.37</td>
-        <td>1.29</td><td>2.79</td></tr><tr><td>MTL</td><td>Jake Evans</td>
-        <td>4.05</td><td>4.44</td>
-        <td>3.11</td>
-        <td>3.72</td><td>37</td>
-        <td>4.42</td><td>31</td><td>-0.70</td>
-        <td>0.69</td><td>9.08</td>
-        <td>2.78</td><td>11.76</td>
-        <td>0.00</td><td>0.04</td></tr><tr><td>MTL</td><td>Jayden Struble</td>
-        <td>1.73</td><td>2.89</td>
-        <td>2.87</td>
-        <td>1.62</td><td>32</td>
-        <td>1.86</td><td>27</td><td>-0.23</td>
-        <td>0.11</td><td>6.46</td>
-        <td>0.23</td><td>13.54</td>
-        <td>0.00</td><td>0.02</td></tr><tr><td>MTL</td><td>Josh Anderson</td>
-        <td>5.12</td><td>5.50</td>
+    <th>PP ixG60 FS</th><th>PP TOI/GP</th></tr></thead><tbody><tr><td>ANA</td><td>Alex Killorn</td>
+        <td>6.99</td><td>6.34</td>
+        <td>6.07</td>
+        <td>7.27</td><td>41</td>
+        <td>6.71</td><td>41</td><td>0.56</td>
+        <td>0.77</td><td>12.15</td>
+        <td>3.61</td><td>12.35</td>
+        <td>1.17</td><td>1.46</td></tr><tr><td>ANA</td><td>Beckett Sennecke</td>
+        <td>7.77</td><td>8.98</td>
+        <td>9.39</td>
+        <td>8.26</td><td>41</td>
+        <td>7.25</td><td>41</td><td>1.01</td>
+        <td>1.02</td><td>15.48</td>
+        <td>4.67</td><td>13.94</td>
+        <td>2.55</td><td>2.26</td></tr><tr><td>ANA</td><td>Cutter Gauthier</td>
+        <td>11.56</td><td>11.88</td>
+        <td>12.63</td>
+        <td>10.96</td><td>36</td>
+        <td>12.10</td><td>40</td><td>-1.14</td>
+        <td>1.10</td><td>23.07</td>
+        <td>3.49</td><td>13.11</td>
+        <td>2.31</td><td>2.65</td></tr><tr><td>ANA</td><td>Frank Vatrano</td>
+        <td>8.45</td><td>6.62</td>
+        <td>6.41</td>
+        <td>7.94</td><td>24</td>
+        <td>8.99</td><td>26</td><td>-1.05</td>
+        <td>0.73</td><td>15.00</td>
+        <td>2.86</td><td>10.08</td>
+        <td>2.42</td><td>0.75</td></tr><tr><td>ANA</td><td>Jackson LaCombe</td>
+        <td>4.32</td><td>3.86</td>
+        <td>4.00</td>
+        <td>3.66</td><td>41</td>
+        <td>4.96</td><td>41</td><td>-1.31</td>
+        <td>0.32</td><td>9.49</td>
+        <td>0.90</td><td>17.80</td>
+        <td>0.86</td><td>3.12</td></tr><tr><td>ANA</td><td>Jeff Malott</td>
+        <td>6.30</td><td>6.43</td>
+        <td>7.12</td>
+        <td>6.17</td><td>30</td>
+        <td>6.45</td><td>28</td><td>-0.28</td>
+        <td>1.14</td><td>14.87</td>
+        <td>5.95</td><td>8.70</td>
+        <td>0.00</td><td>0.01</td></tr><tr><td>ANA</td><td>Leo Carlsson</td>
+        <td>8.05</td><td>10.53</td>
+        <td>12.53</td>
+        <td>8.15</td><td>35</td>
+        <td>7.96</td><td>35</td><td>0.18</td>
+        <td>0.93</td><td>15.28</td>
+        <td>4.50</td><td>13.52</td>
+        <td>1.80</td><td>3.24</td></tr><tr><td>ANA</td><td>Mikael Granlund</td>
+        <td>5.42</td><td>4.49</td>
+        <td>5.00</td>
+        <td>5.46</td><td>24</td>
+        <td>5.39</td><td>34</td><td>0.08</td>
+        <td>0.76</td><td>10.76</td>
+        <td>3.03</td><td>12.98</td>
+        <td>2.10</td><td>2.90</td></tr><tr><td>ANA</td><td>Nick Jensen</td>
+        <td>2.07</td><td>1.27</td>
+        <td>1.09</td>
+        <td>2.37</td><td>28</td>
+        <td>1.83</td><td>33</td><td>0.55</td>
+        <td>0.12</td><td>7.34</td>
+        <td>0.31</td><td>15.67</td>
+        <td>0.76</td><td>0.05</td></tr><tr><td>ANA</td><td>Nikita Nesterenko</td>
+        <td>5.04</td><td>5.93</td>
+        <td>5.88</td>
+        <td>4.85</td><td>16</td>
+        <td>5.26</td><td>13</td><td>-0.41</td>
+        <td>0.62</td><td>11.94</td>
+        <td>2.80</td><td>11.09</td>
+        <td>3.76</td><td>0.08</td></tr><tr><td>ANA</td><td>Pavel Mintyukov</td>
+        <td>3.73</td><td>4.77</td>
+        <td>3.97</td>
+        <td>4.26</td><td>36</td>
+        <td>3.17</td><td>37</td><td>1.09</td>
+        <td>0.27</td><td>9.98</td>
+        <td>0.93</td><td>14.99</td>
+        <td>0.27</td><td>0.77</td></tr><tr><td>ANA</td><td>Sam Colangelo</td>
+        <td>4.92</td><td>4.92</td>
         <td>4.92</td>
-        <td>4.43</td><td>36</td>
-        <td>5.82</td><td>36</td><td>-1.39</td>
-        <td>0.75</td><td>10.24</td>
-        <td>3.56</td><td>11.23</td>
-        <td>2.36</td><td>0.08</td></tr><tr><td>MTL</td><td>Juraj Slafkovský</td>
-        <td>5.85</td><td>5.96</td>
-        <td>5.54</td>
-        <td>5.99</td><td>41</td>
-        <td>5.73</td><td>41</td><td>0.26</td>
-        <td>0.76</td><td>13.13</td>
-        <td>3.16</td><td>13.87</td>
-        <td>2.43</td><td>3.09</td></tr><tr><td>MTL</td><td>Kirby Dach</td>
-        <td>6.13</td><td>5.63</td>
-        <td>5.30</td>
-        <td>6.22</td><td>20</td>
-        <td>6.03</td><td>17</td><td>0.19</td>
-        <td>0.81</td><td>11.31</td>
-        <td>3.54</td><td>11.90</td>
-        <td>1.44</td><td>1.36</td></tr><tr><td>MTL</td><td>Lane Hutson</td>
-        <td>3.64</td><td>3.72</td>
-        <td>1.35</td>
-        <td>4.20</td><td>41</td>
-        <td>3.10</td><td>41</td><td>1.10</td>
-        <td>0.27</td><td>9.19</td>
-        <td>0.88</td><td>18.32</td>
-        <td>0.43</td><td>3.19</td></tr><tr><td>MTL</td><td>Mike Matheson</td>
-        <td>4.13</td><td>4.20</td>
-        <td>2.76</td>
-        <td>4.30</td><td>39</td>
-        <td>3.96</td><td>39</td><td>0.35</td>
-        <td>0.18</td><td>9.80</td>
-        <td>0.50</td><td>18.45</td>
-        <td>0.59</td><td>0.29</td></tr><tr><td>MTL</td><td>Nick Suzuki</td>
-        <td>5.39</td><td>5.25</td>
-        <td>3.81</td>
-        <td>5.40</td><td>41</td>
-        <td>5.37</td><td>41</td><td>0.04</td>
-        <td>0.65</td><td>11.67</td>
-        <td>2.39</td><td>14.67</td>
-        <td>1.96</td><td>3.28</td></tr><tr><td>MTL</td><td>Noah Dobson</td>
-        <td>5.04</td><td>4.51</td>
-        <td>2.57</td>
-        <td>5.20</td><td>41</td>
-        <td>4.89</td><td>39</td><td>0.31</td>
-        <td>0.23</td><td>11.50</td>
-        <td>0.47</td><td>17.54</td>
-        <td>0.86</td><td>1.36</td></tr><tr><td>MTL</td><td>Oliver Kapanen</td>
-        <td>6.88</td><td>4.76</td>
-        <td>4.02</td>
-        <td>6.19</td><td>41</td>
-        <td>7.56</td><td>41</td><td>-1.37</td>
-        <td>0.91</td><td>12.34</td>
-        <td>4.05</td><td>11.38</td>
-        <td>1.73</td><td>0.96</td></tr><tr><td>MTL</td><td>Phillip Danault</td>
-        <td>5.02</td><td>3.49</td>
-        <td>4.73</td>
-        <td>5.86</td><td>34</td>
-        <td>4.32</td><td>41</td><td>1.53</td>
-        <td>0.53</td><td>9.59</td>
-        <td>2.94</td><td>12.26</td>
-        <td>1.47</td><td>0.62</td></tr><tr><td>MTL</td><td>Zachary Bolduc</td>
-        <td>5.22</td><td>5.20</td>
-        <td>3.44</td>
-        <td>5.37</td><td>37</td>
-        <td>5.08</td><td>41</td><td>0.29</td>
-        <td>0.84</td><td>12.53</td>
-        <td>3.33</td><td>11.78</td>
-        <td>1.72</td><td>1.59</td></tr><tr><td>NYR</td><td>Adam Fox</td>
-        <td>3.55</td><td>2.85</td>
-        <td>4.02</td>
-        <td>3.44</td><td>28</td>
-        <td>3.67</td><td>27</td><td>-0.24</td>
-        <td>0.24</td><td>11.25</td>
-        <td>0.83</td><td>18.43</td>
-        <td>0.53</td><td>3.16</td></tr><tr><td>NYR</td><td>Alexis Lafrenière</td>
-        <td>6.28</td><td>6.87</td>
-        <td>6.04</td>
-        <td>5.98</td><td>41</td>
-        <td>6.59</td><td>41</td><td>-0.61</td>
-        <td>0.85</td><td>12.77</td>
-        <td>3.83</td><td>14.33</td>
-        <td>2.17</td><td>2.33</td></tr><tr><td>NYR</td><td>Braden Schneider</td>
-        <td>4.05</td><td>3.34</td>
-        <td>4.44</td>
-        <td>4.38</td><td>41</td>
-        <td>3.73</td><td>41</td><td>0.65</td>
-        <td>0.16</td><td>10.19</td>
-        <td>0.38</td><td>17.16</td>
-        <td>0.18</td><td>0.37</td></tr><tr><td>NYR</td><td>Eeli Tolvanen</td>
-        <td>5.70</td><td>6.89</td>
+        <td>7.17</td><td>1</td>
+        <td>4.67</td><td>8</td><td>2.50</td>
+        <td>0.42</td><td>11.94</td>
+        <td>1.40</td><td>9.49</td>
+        <td>0.00</td><td>0.45</td></tr><tr><td>ANA</td><td>Tim Washe</td>
+        <td>4.53</td><td>4.80</td>
+        <td>2.17</td>
+        <td>3.40</td><td>20</td>
+        <td>5.67</td><td>19</td><td>-2.28</td>
+        <td>0.79</td><td>11.24</td>
+        <td>4.06</td><td>9.86</td>
+        <td>0.00</td><td>0.05</td></tr><tr><td>ANA</td><td>Travis Mitchell</td>
+        <td>2.34</td><td>2.34</td>
+        <td>2.34</td>
+        <td>2.40</td><td>7</td>
+        <td>2.17</td><td>2</td><td>0.24</td>
+        <td>0.13</td><td>7.61</td>
+        <td>0.59</td><td>11.39</td>
+        <td>—</td><td>0.00</td></tr><tr><td>ANA</td><td>Tristan Luneau</td>
+        <td>10.33</td><td>10.33</td>
+        <td>10.33</td>
+        <td>—</td><td>—</td>
+        <td>10.33</td><td>1</td><td>—</td>
+        <td>1.55</td><td>15.49</td>
+        <td>5.16</td><td>11.62</td>
+        <td>—</td><td>0.00</td></tr><tr><td>DAL</td><td>Esa Lindell</td>
+        <td>2.76</td><td>2.74</td>
+        <td>3.25</td>
+        <td>2.93</td><td>41</td>
+        <td>2.58</td><td>41</td><td>0.35</td>
+        <td>0.16</td><td>6.77</td>
+        <td>0.21</td><td>17.52</td>
+        <td>0.78</td><td>0.78</td></tr><tr><td>DAL</td><td>Jamie Benn</td>
+        <td>5.68</td><td>3.75</td>
+        <td>4.08</td>
+        <td>6.24</td><td>31</td>
+        <td>5.09</td><td>29</td><td>1.15</td>
+        <td>0.78</td><td>9.32</td>
+        <td>4.08</td><td>11.27</td>
+        <td>1.10</td><td>1.46</td></tr><tr><td>DAL</td><td>Jason Robertson</td>
+        <td>9.87</td><td>10.45</td>
+        <td>10.01</td>
+        <td>9.62</td><td>41</td>
+        <td>10.13</td><td>41</td><td>-0.51</td>
+        <td>1.08</td><td>18.17</td>
+        <td>4.10</td><td>14.98</td>
+        <td>2.01</td><td>3.72</td></tr><tr><td>DAL</td><td>Joel Kiviranta</td>
+        <td>6.20</td><td>7.07</td>
+        <td>7.48</td>
+        <td>7.83</td><td>25</td>
+        <td>4.60</td><td>26</td><td>3.23</td>
+        <td>0.73</td><td>11.23</td>
+        <td>3.36</td><td>9.11</td>
+        <td>0.00</td><td>0.06</td></tr><tr><td>DAL</td><td>Justin Hryckowian</td>
+        <td>4.90</td><td>4.87</td>
+        <td>4.53</td>
+        <td>5.01</td><td>41</td>
+        <td>4.78</td><td>40</td><td>0.23</td>
+        <td>0.76</td><td>8.25</td>
+        <td>3.96</td><td>11.04</td>
+        <td>2.47</td><td>0.63</td></tr><tr><td>DAL</td><td>Lian Bichsel</td>
+        <td>2.17</td><td>2.92</td>
+        <td>3.19</td>
+        <td>1.63</td><td>28</td>
+        <td>2.84</td><td>22</td><td>-1.21</td>
+        <td>0.11</td><td>7.25</td>
+        <td>0.25</td><td>14.41</td>
+        <td>0.00</td><td>0.03</td></tr><tr><td>DAL</td><td>Mikko Rantanen</td>
+        <td>5.44</td><td>4.11</td>
+        <td>2.86</td>
+        <td>5.09</td><td>30</td>
+        <td>5.73</td><td>34</td><td>-0.65</td>
+        <td>0.65</td><td>10.75</td>
+        <td>3.60</td><td>14.83</td>
+        <td>1.54</td><td>3.75</td></tr><tr><td>DAL</td><td>Miro Heiskanen</td>
+        <td>4.47</td><td>3.96</td>
+        <td>3.93</td>
+        <td>5.02</td><td>40</td>
+        <td>3.89</td><td>37</td><td>1.13</td>
+        <td>0.23</td><td>11.02</td>
+        <td>0.41</td><td>17.25</td>
+        <td>0.36</td><td>3.28</td></tr><tr><td>DAL</td><td>Nils Lundkvist</td>
+        <td>3.20</td><td>2.84</td>
+        <td>2.25</td>
+        <td>2.42</td><td>26</td>
+        <td>3.94</td><td>26</td><td>-1.52</td>
+        <td>0.14</td><td>9.10</td>
+        <td>0.15</td><td>15.84</td>
+        <td>0.00</td><td>0.10</td></tr><tr><td>DAL</td><td>Radek Faksa</td>
+        <td>3.54</td><td>4.86</td>
+        <td>5.01</td>
+        <td>3.46</td><td>25</td>
+        <td>3.60</td><td>33</td><td>-0.14</td>
+        <td>0.56</td><td>8.07</td>
+        <td>3.21</td><td>9.35</td>
+        <td>0.00</td><td>0.04</td></tr><tr><td>DAL</td><td>Roope Hintz</td>
+        <td>6.92</td><td>7.61</td>
+        <td>7.01</td>
+        <td>6.76</td><td>25</td>
+        <td>7.07</td><td>28</td><td>-0.31</td>
+        <td>0.86</td><td>11.95</td>
+        <td>4.04</td><td>12.60</td>
+        <td>3.10</td><td>2.97</td></tr><tr><td>DAL</td><td>Sam Steel</td>
+        <td>4.37</td><td>4.55</td>
+        <td>3.43</td>
+        <td>4.46</td><td>36</td>
+        <td>4.28</td><td>37</td><td>0.18</td>
+        <td>0.63</td><td>7.92</td>
+        <td>3.23</td><td>12.97</td>
+        <td>0.31</td><td>0.46</td></tr><tr><td>DAL</td><td>Thomas Harley</td>
+        <td>4.19</td><td>4.47</td>
+        <td>4.54</td>
+        <td>4.14</td><td>35</td>
+        <td>4.24</td><td>35</td><td>-0.11</td>
+        <td>0.22</td><td>10.71</td>
+        <td>0.23</td><td>18.82</td>
+        <td>0.73</td><td>1.64</td></tr><tr><td>DAL</td><td>Tyler Myers</td>
+        <td>4.19</td><td>4.24</td>
+        <td>2.75</td>
+        <td>4.39</td><td>36</td>
+        <td>4.00</td><td>37</td><td>0.38</td>
+        <td>0.21</td><td>9.34</td>
+        <td>0.50</td><td>16.28</td>
+        <td>0.00</td><td>0.09</td></tr><tr><td>DAL</td><td>Wyatt Johnston</td>
+        <td>5.61</td><td>3.85</td>
+        <td>3.51</td>
+        <td>5.37</td><td>41</td>
+        <td>5.85</td><td>41</td><td>-0.48</td>
+        <td>0.85</td><td>11.97</td>
+        <td>3.92</td><td>14.73</td>
+        <td>3.55</td><td>3.35</td></tr><tr><td>LAK</td><td>Adrian Kempe</td>
+        <td>8.24</td><td>8.63</td>
+        <td>10.99</td>
+        <td>8.68</td><td>41</td>
+        <td>7.78</td><td>40</td><td>0.90</td>
+        <td>0.72</td><td>17.52</td>
+        <td>2.82</td><td>14.21</td>
+        <td>1.18</td><td>2.86</td></tr><tr><td>LAK</td><td>Alex Laferriere</td>
+        <td>8.40</td><td>6.96</td>
         <td>8.63</td>
-        <td>6.17</td><td>38</td>
-        <td>5.27</td><td>40</td><td>0.90</td>
-        <td>0.57</td><td>12.87</td>
-        <td>2.27</td><td>12.55</td>
-        <td>1.72</td><td>1.80</td></tr><tr><td>NYR</td><td>Gabe Perreault</td>
-        <td>5.24</td><td>5.52</td>
-        <td>7.75</td>
-        <td>6.07</td><td>25</td>
-        <td>4.33</td><td>24</td><td>1.74</td>
-        <td>0.83</td><td>10.40</td>
-        <td>4.81</td><td>14.25</td>
-        <td>1.30</td><td>1.26</td></tr><tr><td>NYR</td><td>J.T. Miller</td>
-        <td>5.87</td><td>6.63</td>
-        <td>6.44</td>
-        <td>5.99</td><td>37</td>
-        <td>5.73</td><td>31</td><td>0.26</td>
-        <td>0.81</td><td>10.30</td>
-        <td>4.23</td><td>13.97</td>
-        <td>2.33</td><td>2.99</td></tr><tr><td>NYR</td><td>Joseph Veleno</td>
-        <td>4.18</td><td>2.15</td>
-        <td>1.32</td>
-        <td>5.42</td><td>29</td>
-        <td>3.02</td><td>32</td><td>2.40</td>
-        <td>0.53</td><td>8.26</td>
-        <td>2.04</td><td>10.12</td>
-        <td>1.72</td><td>0.05</td></tr><tr><td>NYR</td><td>Marcus Pettersson</td>
-        <td>2.41</td><td>1.44</td>
-        <td>1.57</td>
-        <td>2.40</td><td>41</td>
-        <td>2.42</td><td>41</td><td>-0.02</td>
-        <td>0.10</td><td>6.77</td>
-        <td>0.33</td><td>17.94</td>
-        <td>1.03</td><td>0.08</td></tr><tr><td>NYR</td><td>Mika Zibanejad</td>
-        <td>7.26</td><td>6.45</td>
-        <td>4.43</td>
-        <td>7.61</td><td>40</td>
-        <td>6.91</td><td>41</td><td>0.70</td>
-        <td>0.76</td><td>13.39</td>
-        <td>3.32</td><td>14.49</td>
-        <td>2.39</td><td>3.11</td></tr><tr><td>NYR</td><td>Noah Laba</td>
-        <td>4.09</td><td>4.43</td>
-        <td>5.63</td>
-        <td>4.24</td><td>36</td>
-        <td>3.94</td><td>38</td><td>0.29</td>
-        <td>0.62</td><td>8.45</td>
-        <td>2.68</td><td>11.51</td>
-        <td>1.72</td><td>0.55</td></tr><tr><td>NYR</td><td>Oliver Bjorkstrand</td>
-        <td>5.87</td><td>5.94</td>
-        <td>6.36</td>
-        <td>5.98</td><td>39</td>
-        <td>5.76</td><td>41</td><td>0.22</td>
-        <td>0.68</td><td>12.25</td>
-        <td>2.71</td><td>10.23</td>
-        <td>1.93</td><td>3.00</td></tr><tr><td>NYR</td><td>Pavel Dorofeyev</td>
-        <td>7.63</td><td>9.01</td>
-        <td>8.83</td>
-        <td>7.69</td><td>41</td>
-        <td>7.56</td><td>41</td><td>0.12</td>
-        <td>0.86</td><td>16.46</td>
-        <td>3.95</td><td>13.34</td>
-        <td>2.90</td><td>3.26</td></tr><tr><td>NYR</td><td>Sean Durzi</td>
-        <td>3.83</td><td>3.43</td>
-        <td>6.40</td>
-        <td>3.65</td><td>30</td>
-        <td>4.00</td><td>30</td><td>-0.34</td>
-        <td>0.22</td><td>12.07</td>
-        <td>0.77</td><td>16.98</td>
-        <td>0.65</td><td>1.30</td></tr><tr><td>NYR</td><td>Taylor Raddysh</td>
-        <td>3.68</td><td>3.59</td>
+        <td>8.66</td><td>41</td>
+        <td>8.14</td><td>41</td><td>0.53</td>
+        <td>0.96</td><td>19.52</td>
+        <td>5.06</td><td>14.02</td>
+        <td>2.86</td><td>1.66</td></tr><tr><td>LAK</td><td>Andre Lee</td>
+        <td>4.17</td><td>4.17</td>
+        <td>4.17</td>
+        <td>4.37</td><td>4</td>
+        <td>3.91</td><td>3</td><td>0.46</td>
+        <td>0.57</td><td>11.69</td>
+        <td>4.17</td><td>10.27</td>
+        <td>0.00</td><td>0.02</td></tr><tr><td>LAK</td><td>Artemi Panarin</td>
+        <td>6.35</td><td>5.79</td>
+        <td>4.96</td>
+        <td>6.18</td><td>38</td>
+        <td>6.51</td><td>40</td><td>-0.34</td>
+        <td>0.54</td><td>14.31</td>
+        <td>1.62</td><td>16.12</td>
+        <td>1.54</td><td>3.27</td></tr><tr><td>LAK</td><td>Brandt Clarke</td>
+        <td>5.17</td><td>4.53</td>
         <td>4.36</td>
-        <td>3.12</td><td>32</td>
-        <td>4.15</td><td>36</td><td>-1.03</td>
-        <td>0.56</td><td>7.69</td>
-        <td>2.76</td><td>10.55</td>
-        <td>3.03</td><td>0.38</td></tr><tr><td>NYR</td><td>Tye Kartye</td>
-        <td>4.84</td><td>6.27</td>
-        <td>6.09</td>
-        <td>4.90</td><td>33</td>
-        <td>4.77</td><td>31</td><td>0.13</td>
-        <td>0.53</td><td>11.65</td>
-        <td>2.42</td><td>10.46</td>
-        <td>3.21</td><td>0.05</td></tr><tr><td>NYR</td><td>Vladislav Gavrikov</td>
-        <td>3.72</td><td>4.07</td>
-        <td>4.20</td>
-        <td>3.73</td><td>41</td>
-        <td>3.71</td><td>41</td><td>0.02</td>
-        <td>0.20</td><td>10.55</td>
-        <td>0.68</td><td>19.29</td>
-        <td>0.79</td><td>1.00</td></tr><tr><td>NYR</td><td>Will Cuylle</td>
-        <td>6.17</td><td>6.94</td>
-        <td>6.84</td>
-        <td>6.08</td><td>41</td>
-        <td>6.26</td><td>41</td><td>-0.17</td>
-        <td>0.75</td><td>14.24</td>
-        <td>3.87</td><td>13.05</td>
-        <td>2.81</td><td>1.40</td></tr><tr><td>TOR</td><td>Auston Matthews</td>
+        <td>5.42</td><td>41</td>
+        <td>4.92</td><td>41</td><td>0.50</td>
+        <td>0.23</td><td>11.15</td>
+        <td>0.49</td><td>16.40</td>
+        <td>0.94</td><td>2.29</td></tr><tr><td>LAK</td><td>Brian Dumoulin</td>
+        <td>2.54</td><td>1.00</td>
+        <td>0.39</td>
+        <td>2.19</td><td>41</td>
+        <td>2.90</td><td>41</td><td>-0.70</td>
+        <td>0.11</td><td>7.53</td>
+        <td>0.18</td><td>15.83</td>
+        <td>0.27</td><td>0.11</td></tr><tr><td>LAK</td><td>Cody Ceci</td>
+        <td>2.80</td><td>2.42</td>
+        <td>1.59</td>
+        <td>2.21</td><td>41</td>
+        <td>3.39</td><td>41</td><td>-1.17</td>
+        <td>0.12</td><td>8.78</td>
+        <td>0.19</td><td>15.17</td>
+        <td>0.00</td><td>0.01</td></tr><tr><td>LAK</td><td>Drew Doughty</td>
+        <td>3.51</td><td>3.61</td>
+        <td>3.43</td>
+        <td>4.14</td><td>34</td>
+        <td>2.96</td><td>38</td><td>1.18</td>
+        <td>0.13</td><td>8.55</td>
+        <td>0.27</td><td>18.53</td>
+        <td>0.95</td><td>1.63</td></tr><tr><td>LAK</td><td>Erik Haula</td>
+        <td>5.86</td><td>6.16</td>
+        <td>4.99</td>
+        <td>4.75</td><td>40</td>
+        <td>6.94</td><td>41</td><td>-2.19</td>
+        <td>0.79</td><td>12.32</td>
+        <td>3.62</td><td>12.27</td>
+        <td>1.57</td><td>1.47</td></tr><tr><td>LAK</td><td>Joel Edmundson</td>
+        <td>4.73</td><td>4.90</td>
+        <td>7.21</td>
+        <td>5.18</td><td>41</td>
+        <td>4.26</td><td>41</td><td>0.92</td>
+        <td>0.23</td><td>11.65</td>
+        <td>0.53</td><td>15.33</td>
+        <td>0.00</td><td>0.07</td></tr><tr><td>LAK</td><td>Mikey Anderson</td>
+        <td>2.51</td><td>2.17</td>
+        <td>1.54</td>
+        <td>2.34</td><td>40</td>
+        <td>2.69</td><td>40</td><td>-0.35</td>
+        <td>0.16</td><td>7.23</td>
+        <td>0.51</td><td>17.64</td>
+        <td>0.00</td><td>0.08</td></tr><tr><td>LAK</td><td>Quinton Byfield</td>
+        <td>6.85</td><td>8.09</td>
+        <td>8.43</td>
+        <td>6.61</td><td>39</td>
+        <td>7.09</td><td>40</td><td>-0.47</td>
+        <td>0.75</td><td>13.43</td>
+        <td>3.50</td><td>14.53</td>
+        <td>2.18</td><td>2.08</td></tr><tr><td>LAK</td><td>Samuel Helenius</td>
+        <td>5.45</td><td>5.88</td>
+        <td>6.08</td>
+        <td>4.69</td><td>29</td>
+        <td>6.28</td><td>24</td><td>-1.59</td>
+        <td>0.66</td><td>12.05</td>
+        <td>3.30</td><td>7.89</td>
+        <td>0.00</td><td>0.02</td></tr><tr><td>LAK</td><td>Scott Laughton</td>
+        <td>6.44</td><td>8.27</td>
+        <td>8.89</td>
+        <td>5.78</td><td>31</td>
+        <td>7.08</td><td>33</td><td>-1.30</td>
+        <td>0.73</td><td>12.55</td>
+        <td>3.42</td><td>11.50</td>
+        <td>1.75</td><td>0.35</td></tr><tr><td>LAK</td><td>Trevor Moore</td>
+        <td>8.14</td><td>10.86</td>
+        <td>8.58</td>
+        <td>8.21</td><td>31</td>
+        <td>8.09</td><td>38</td><td>0.12</td>
+        <td>0.79</td><td>15.78</td>
+        <td>3.66</td><td>13.56</td>
+        <td>0.97</td><td>0.72</td></tr><tr><td>MIN</td><td>Blake Coleman</td>
+        <td>9.25</td><td>9.60</td>
+        <td>9.30</td>
+        <td>10.24</td><td>33</td>
+        <td>8.32</td><td>36</td><td>1.92</td>
+        <td>1.02</td><td>15.33</td>
+        <td>5.28</td><td>13.16</td>
+        <td>2.07</td><td>1.29</td></tr><tr><td>MIN</td><td>Bobby Brink</td>
+        <td>5.55</td><td>3.48</td>
+        <td>4.39</td>
+        <td>5.75</td><td>33</td>
+        <td>5.35</td><td>35</td><td>0.40</td>
+        <td>0.70</td><td>10.48</td>
+        <td>3.05</td><td>12.72</td>
+        <td>2.49</td><td>1.96</td></tr><tr><td>MIN</td><td>Brock Faber</td>
+        <td>5.53</td><td>6.43</td>
+        <td>6.11</td>
+        <td>5.71</td><td>40</td>
+        <td>5.35</td><td>40</td><td>0.36</td>
+        <td>0.25</td><td>11.77</td>
+        <td>0.68</td><td>19.94</td>
+        <td>0.38</td><td>1.08</td></tr><tr><td>MIN</td><td>Danila Yurov</td>
+        <td>5.04</td><td>5.19</td>
+        <td>3.87</td>
+        <td>5.10</td><td>38</td>
+        <td>4.97</td><td>35</td><td>0.13</td>
+        <td>0.78</td><td>10.81</td>
+        <td>4.10</td><td>12.24</td>
+        <td>0.64</td><td>0.63</td></tr><tr><td>MIN</td><td>Jared Spurgeon</td>
+        <td>3.72</td><td>3.95</td>
+        <td>3.89</td>
+        <td>3.81</td><td>40</td>
+        <td>3.62</td><td>39</td><td>0.19</td>
+        <td>0.21</td><td>8.16</td>
+        <td>0.68</td><td>15.74</td>
+        <td>0.43</td><td>1.48</td></tr><tr><td>MIN</td><td>Joel Eriksson Ek</td>
+        <td>7.97</td><td>8.00</td>
+        <td>9.36</td>
+        <td>8.43</td><td>35</td>
+        <td>7.51</td><td>35</td><td>0.91</td>
+        <td>0.85</td><td>14.92</td>
+        <td>3.98</td><td>12.70</td>
+        <td>3.22</td><td>3.28</td></tr><tr><td>MIN</td><td>Jonas Brodin</td>
+        <td>4.02</td><td>6.30</td>
+        <td>6.82</td>
+        <td>3.63</td><td>31</td>
+        <td>4.40</td><td>31</td><td>-0.76</td>
+        <td>0.14</td><td>8.97</td>
+        <td>0.28</td><td>17.59</td>
+        <td>0.00</td><td>0.11</td></tr><tr><td>MIN</td><td>Kirill Kaprizov</td>
+        <td>7.32</td><td>6.78</td>
+        <td>7.06</td>
+        <td>9.18</td><td>38</td>
+        <td>5.58</td><td>40</td><td>3.61</td>
+        <td>0.83</td><td>14.92</td>
+        <td>3.52</td><td>16.60</td>
+        <td>3.06</td><td>3.70</td></tr><tr><td>MIN</td><td>Marcus Foligno</td>
+        <td>5.50</td><td>6.79</td>
+        <td>5.75</td>
+        <td>5.00</td><td>25</td>
+        <td>5.90</td><td>31</td><td>-0.89</td>
+        <td>0.67</td><td>9.17</td>
+        <td>3.28</td><td>11.10</td>
+        <td>6.29</td><td>0.15</td></tr><tr><td>MIN</td><td>Matt Boldy</td>
+        <td>9.26</td><td>8.76</td>
+        <td>11.45</td>
+        <td>7.62</td><td>39</td>
+        <td>10.90</td><td>37</td><td>-3.28</td>
+        <td>1.06</td><td>18.46</td>
+        <td>4.57</td><td>13.64</td>
+        <td>1.66</td><td>3.57</td></tr><tr><td>MIN</td><td>Michael McCarron</td>
+        <td>6.86</td><td>6.08</td>
+        <td>7.10</td>
+        <td>7.13</td><td>40</td>
+        <td>6.60</td><td>39</td><td>0.54</td>
+        <td>0.93</td><td>12.78</td>
+        <td>4.71</td><td>11.29</td>
+        <td>0.00</td><td>0.09</td></tr><tr><td>MIN</td><td>Nick Foligno</td>
+        <td>4.48</td><td>5.41</td>
+        <td>5.62</td>
+        <td>3.98</td><td>25</td>
+        <td>4.93</td><td>29</td><td>-0.95</td>
+        <td>0.54</td><td>7.33</td>
+        <td>2.73</td><td>10.16</td>
+        <td>1.28</td><td>1.01</td></tr><tr><td>MIN</td><td>Quinn Hughes</td>
+        <td>4.86</td><td>3.94</td>
+        <td>4.18</td>
+        <td>5.98</td><td>36</td>
+        <td>3.79</td><td>38</td><td>2.19</td>
+        <td>0.25</td><td>12.08</td>
+        <td>0.34</td><td>21.68</td>
+        <td>0.68</td><td>3.78</td></tr><tr><td>MIN</td><td>Ryan Hartman</td>
+        <td>7.38</td><td>8.97</td>
+        <td>9.29</td>
+        <td>7.29</td><td>39</td>
+        <td>7.47</td><td>37</td><td>-0.18</td>
+        <td>0.97</td><td>16.06</td>
+        <td>3.77</td><td>14.45</td>
+        <td>2.23</td><td>1.70</td></tr><tr><td>MIN</td><td>Yakov Trenin</td>
+        <td>5.79</td><td>6.49</td>
+        <td>7.51</td>
+        <td>5.42</td><td>41</td>
+        <td>6.10</td><td>41</td><td>-0.68</td>
+        <td>0.91</td><td>11.38</td>
+        <td>4.46</td><td>11.64</td>
+        <td>1.65</td><td>0.11</td></tr><tr><td>MIN</td><td>Zach Bogosian</td>
+        <td>3.25</td><td>2.71</td>
+        <td>2.40</td>
+        <td>3.49</td><td>17</td>
+        <td>3.09</td><td>24</td><td>0.40</td>
+        <td>0.11</td><td>8.23</td>
+        <td>0.32</td><td>13.51</td>
+        <td>0.00</td><td>0.08</td></tr><tr><td>OTT</td><td>Andre Burakovsky</td>
+        <td>3.99</td><td>3.22</td>
+        <td>2.62</td>
+        <td>3.42</td><td>37</td>
+        <td>4.54</td><td>38</td><td>-1.12</td>
+        <td>0.54</td><td>8.28</td>
+        <td>2.68</td><td>13.43</td>
+        <td>0.52</td><td>2.13</td></tr><tr><td>OTT</td><td>Carter Yakemchuk</td>
+        <td>6.11</td><td>6.11</td>
+        <td>6.11</td>
+        <td>8.24</td><td>1</td>
+        <td>5.21</td><td>3</td><td>3.02</td>
+        <td>0.35</td><td>13.45</td>
+        <td>1.22</td><td>12.27</td>
+        <td>0.35</td><td>1.71</td></tr><tr><td>OTT</td><td>Claude Giroux</td>
+        <td>6.25</td><td>7.19</td>
+        <td>8.18</td>
+        <td>8.50</td><td>41</td>
+        <td>3.96</td><td>41</td><td>4.54</td>
+        <td>0.62</td><td>11.16</td>
+        <td>2.94</td><td>11.94</td>
+        <td>0.88</td><td>2.09</td></tr><tr><td>OTT</td><td>Drake Batherson</td>
+        <td>6.71</td><td>5.93</td>
+        <td>4.32</td>
+        <td>5.78</td><td>40</td>
+        <td>7.67</td><td>39</td><td>-1.90</td>
+        <td>0.91</td><td>13.59</td>
+        <td>4.22</td><td>13.14</td>
+        <td>2.40</td><td>3.07</td></tr><tr><td>OTT</td><td>Dylan Cozens</td>
+        <td>7.82</td><td>9.31</td>
+        <td>8.26</td>
+        <td>7.75</td><td>41</td>
+        <td>7.89</td><td>41</td><td>-0.13</td>
+        <td>1.05</td><td>15.07</td>
+        <td>5.08</td><td>12.82</td>
+        <td>1.72</td><td>3.10</td></tr><tr><td>OTT</td><td>Fabian Zetterlund</td>
+        <td>6.96</td><td>7.70</td>
+        <td>6.21</td>
+        <td>6.98</td><td>41</td>
+        <td>6.93</td><td>41</td><td>0.05</td>
+        <td>0.81</td><td>14.30</td>
+        <td>3.19</td><td>11.46</td>
+        <td>1.76</td><td>1.15</td></tr><tr><td>OTT</td><td>Jake Sanderson</td>
+        <td>4.75</td><td>5.75</td>
+        <td>6.89</td>
+        <td>5.15</td><td>33</td>
+        <td>4.34</td><td>34</td><td>0.81</td>
+        <td>0.24</td><td>13.14</td>
+        <td>0.53</td><td>16.98</td>
+        <td>1.11</td><td>3.12</td></tr><tr><td>OTT</td><td>Jordan Spence</td>
+        <td>4.61</td><td>4.22</td>
+        <td>4.91</td>
+        <td>5.01</td><td>38</td>
+        <td>4.15</td><td>35</td><td>0.86</td>
+        <td>0.27</td><td>12.50</td>
+        <td>0.84</td><td>16.57</td>
+        <td>0.52</td><td>1.28</td></tr><tr><td>OTT</td><td>Michael Amadio</td>
+        <td>4.62</td><td>3.60</td>
+        <td>3.73</td>
+        <td>3.91</td><td>40</td>
+        <td>5.32</td><td>41</td><td>-1.41</td>
+        <td>0.65</td><td>8.83</td>
+        <td>3.32</td><td>14.26</td>
+        <td>4.67</td><td>0.09</td></tr><tr><td>OTT</td><td>Ridly Greig</td>
+        <td>6.35</td><td>5.40</td>
+        <td>5.77</td>
+        <td>6.50</td><td>41</td>
+        <td>6.19</td><td>36</td><td>0.31</td>
+        <td>0.85</td><td>12.53</td>
+        <td>3.96</td><td>13.00</td>
+        <td>1.49</td><td>0.99</td></tr><tr><td>OTT</td><td>Shane Pinto</td>
+        <td>6.61</td><td>5.41</td>
+        <td>3.15</td>
+        <td>6.20</td><td>36</td>
+        <td>7.02</td><td>36</td><td>-0.82</td>
+        <td>0.92</td><td>13.47</td>
+        <td>4.24</td><td>13.37</td>
+        <td>2.38</td><td>1.78</td></tr><tr><td>OTT</td><td>Stephen Halliday</td>
+        <td>8.71</td><td>7.56</td>
+        <td>8.46</td>
+        <td>7.06</td><td>14</td>
+        <td>10.26</td><td>16</td><td>-3.19</td>
+        <td>0.79</td><td>14.31</td>
+        <td>5.29</td><td>6.43</td>
+        <td>1.44</td><td>1.91</td></tr><tr><td>OTT</td><td>Thomas Chabot</td>
+        <td>4.16</td><td>3.67</td>
+        <td>2.70</td>
+        <td>4.08</td><td>29</td>
+        <td>4.24</td><td>28</td><td>-0.16</td>
+        <td>0.19</td><td>11.52</td>
+        <td>0.42</td><td>17.46</td>
+        <td>0.55</td><td>2.37</td></tr><tr><td>OTT</td><td>Tyler Kleven</td>
+        <td>4.49</td><td>4.06</td>
+        <td>5.19</td>
+        <td>4.96</td><td>35</td>
+        <td>4.05</td><td>35</td><td>0.91</td>
+        <td>0.16</td><td>10.22</td>
+        <td>0.22</td><td>15.27</td>
+        <td>1.13</td><td>0.12</td></tr><tr><td>OTT</td><td>William Eklund</td>
+        <td>6.91</td><td>5.69</td>
+        <td>5.98</td>
+        <td>6.90</td><td>38</td>
+        <td>6.93</td><td>40</td><td>-0.03</td>
+        <td>0.76</td><td>12.53</td>
+        <td>4.11</td><td>14.24</td>
+        <td>1.73</td><td>2.66</td></tr><tr><td>TOR</td><td>Auston Matthews</td>
         <td>10.39</td><td>9.22</td>
         <td>8.47</td>
         <td>10.40</td><td>31</td>
@@ -911,14 +589,7 @@ table{width:100%;border-collapse:collapse}th,td{padding:9px;border-bottom:1px so
         <td>6.17</td><td>33</td><td>-0.61</td>
         <td>0.75</td><td>10.84</td>
         <td>4.02</td><td>10.39</td>
-        <td>0.70</td><td>0.48</td></tr><tr><td>TOR</td><td>Dakota Joshua</td>
-        <td>4.47</td><td>4.32</td>
-        <td>4.31</td>
-        <td>4.21</td><td>28</td>
-        <td>4.74</td><td>27</td><td>-0.53</td>
-        <td>0.70</td><td>7.97</td>
-        <td>3.50</td><td>11.22</td>
-        <td>4.77</td><td>0.26</td></tr><tr><td>TOR</td><td>Darren Raddysh</td>
+        <td>0.70</td><td>0.48</td></tr><tr><td>TOR</td><td>Darren Raddysh</td>
         <td>6.84</td><td>8.95</td>
         <td>7.89</td>
         <td>6.10</td><td>38</td>
@@ -988,7 +659,14 @@ table{width:100%;border-collapse:collapse}th,td{padding:9px;border-bottom:1px so
         <td>3.54</td><td>37</td><td>0.55</td>
         <td>0.20</td><td>9.49</td>
         <td>0.57</td><td>17.50</td>
-        <td>0.46</td><td>1.77</td></tr><tr><td>TOR</td><td>Teddy Blueger</td>
+        <td>0.46</td><td>1.77</td></tr><tr><td>TOR</td><td>Steven Lorentz</td>
+        <td>5.43</td><td>5.45</td>
+        <td>6.94</td>
+        <td>5.90</td><td>34</td>
+        <td>4.94</td><td>37</td><td>0.96</td>
+        <td>0.64</td><td>9.70</td>
+        <td>2.76</td><td>9.49</td>
+        <td>0.00</td><td>0.01</td></tr><tr><td>TOR</td><td>Teddy Blueger</td>
         <td>4.85</td><td>3.53</td>
         <td>2.93</td>
         <td>4.39</td><td>20</td>
@@ -1002,256 +680,4 @@ table{width:100%;border-collapse:collapse}th,td{padding:9px;border-bottom:1px so
         <td>6.97</td><td>33</td><td>-1.07</td>
         <td>0.69</td><td>12.93</td>
         <td>3.16</td><td>14.92</td>
-        <td>1.16</td><td>2.70</td></tr><tr><td>VAN</td><td>Brendan Gallagher</td>
-        <td>7.80</td><td>7.68</td>
-        <td>7.67</td>
-        <td>7.90</td><td>37</td>
-        <td>7.71</td><td>40</td><td>0.19</td>
-        <td>1.01</td><td>15.39</td>
-        <td>4.67</td><td>10.69</td>
-        <td>1.51</td><td>1.37</td></tr><tr><td>VAN</td><td>Brock Boeser</td>
-        <td>5.96</td><td>4.90</td>
-        <td>4.59</td>
-        <td>5.64</td><td>38</td>
-        <td>6.28</td><td>37</td><td>-0.64</td>
-        <td>0.64</td><td>11.97</td>
-        <td>2.36</td><td>13.56</td>
-        <td>1.72</td><td>3.02</td></tr><tr><td>VAN</td><td>Drew O&#x27;Connor</td>
-        <td>6.32</td><td>7.84</td>
-        <td>6.45</td>
-        <td>6.60</td><td>41</td>
-        <td>6.04</td><td>41</td><td>0.56</td>
-        <td>0.95</td><td>12.76</td>
-        <td>4.94</td><td>12.73</td>
-        <td>2.37</td><td>0.37</td></tr><tr><td>VAN</td><td>Elias Pettersson</td>
-        <td>4.79</td><td>5.07</td>
-        <td>4.32</td>
-        <td>4.40</td><td>38</td>
-        <td>5.21</td><td>36</td><td>-0.81</td>
-        <td>0.67</td><td>9.82</td>
-        <td>2.79</td><td>13.38</td>
-        <td>1.54</td><td>2.92</td></tr><tr><td>VAN</td><td>Elias Pettersson</td>
-        <td>2.64</td><td>2.94</td>
-        <td>2.67</td>
-        <td>3.00</td><td>36</td>
-        <td>2.25</td><td>34</td><td>0.75</td>
-        <td>0.10</td><td>8.18</td>
-        <td>0.31</td><td>13.62</td>
-        <td>0.82</td><td>0.05</td></tr><tr><td>VAN</td><td>Filip Chytil</td>
-        <td>7.92</td><td>7.92</td>
-        <td>7.24</td>
-        <td>7.55</td><td>7</td>
-        <td>8.56</td><td>5</td><td>-1.01</td>
-        <td>1.18</td><td>13.47</td>
-        <td>5.55</td><td>12.62</td>
-        <td>1.69</td><td>1.21</td></tr><tr><td>VAN</td><td>Filip Hronek</td>
-        <td>3.71</td><td>4.86</td>
-        <td>4.87</td>
-        <td>3.77</td><td>41</td>
-        <td>3.65</td><td>41</td><td>0.12</td>
-        <td>0.15</td><td>8.68</td>
-        <td>0.11</td><td>19.30</td>
-        <td>0.69</td><td>1.76</td></tr><tr><td>VAN</td><td>Jake DeBrusk</td>
-        <td>7.48</td><td>8.20</td>
-        <td>8.04</td>
-        <td>8.87</td><td>41</td>
-        <td>6.05</td><td>40</td><td>2.83</td>
-        <td>0.85</td><td>13.98</td>
-        <td>4.33</td><td>11.98</td>
-        <td>4.29</td><td>2.86</td></tr><tr><td>VAN</td><td>Jamie Oleksiak</td>
-        <td>3.84</td><td>4.81</td>
-        <td>5.45</td>
-        <td>3.41</td><td>39</td>
-        <td>4.26</td><td>39</td><td>-0.85</td>
-        <td>0.16</td><td>8.24</td>
-        <td>0.41</td><td>15.03</td>
-        <td>0.00</td><td>0.03</td></tr><tr><td>VAN</td><td>Jonathan Lekkerimäki</td>
-        <td>3.77</td><td>3.77</td>
-        <td>3.12</td>
-        <td>5.25</td><td>7</td>
-        <td>2.04</td><td>6</td><td>3.21</td>
-        <td>0.22</td><td>8.49</td>
-        <td>0.47</td><td>9.79</td>
-        <td>0.21</td><td>1.52</td></tr><tr><td>VAN</td><td>Liam Ohgren</td>
-        <td>6.08</td><td>5.11</td>
-        <td>2.08</td>
-        <td>5.99</td><td>34</td>
-        <td>6.17</td><td>35</td><td>-0.18</td>
-        <td>0.47</td><td>12.53</td>
-        <td>1.88</td><td>12.01</td>
-        <td>1.31</td><td>0.32</td></tr><tr><td>VAN</td><td>Linus Karlsson</td>
-        <td>6.48</td><td>5.55</td>
-        <td>6.70</td>
-        <td>6.83</td><td>39</td>
-        <td>6.15</td><td>40</td><td>0.69</td>
-        <td>1.08</td><td>12.05</td>
-        <td>4.93</td><td>10.78</td>
-        <td>2.78</td><td>1.29</td></tr><tr><td>VAN</td><td>Luke Schenn</td>
-        <td>3.23</td><td>2.97</td>
-        <td>3.18</td>
-        <td>2.83</td><td>28</td>
-        <td>3.69</td><td>22</td><td>-0.86</td>
-        <td>0.09</td><td>9.18</td>
-        <td>0.10</td><td>11.90</td>
-        <td>0.00</td><td>0.00</td></tr><tr><td>VAN</td><td>Marco Rossi</td>
-        <td>4.27</td><td>3.43</td>
-        <td>3.22</td>
-        <td>5.04</td><td>26</td>
-        <td>3.47</td><td>24</td><td>1.57</td>
-        <td>0.61</td><td>8.63</td>
-        <td>3.74</td><td>13.49</td>
-        <td>0.47</td><td>2.26</td></tr><tr><td>VAN</td><td>Max Sasson</td>
-        <td>4.69</td><td>3.65</td>
-        <td>3.02</td>
-        <td>4.25</td><td>31</td>
-        <td>5.06</td><td>35</td><td>-0.81</td>
-        <td>0.52</td><td>8.88</td>
-        <td>2.77</td><td>10.85</td>
-        <td>0.74</td><td>0.41</td></tr><tr><td>VAN</td><td>Paul Cotter</td>
-        <td>4.06</td><td>3.46</td>
-        <td>4.05</td>
-        <td>3.88</td><td>39</td>
-        <td>4.23</td><td>40</td><td>-0.35</td>
-        <td>0.57</td><td>9.89</td>
-        <td>2.88</td><td>10.30</td>
-        <td>2.36</td><td>0.17</td></tr><tr><td>VAN</td><td>Tom Willander</td>
-        <td>2.93</td><td>2.24</td>
-        <td>2.37</td>
-        <td>3.43</td><td>36</td>
-        <td>2.40</td><td>34</td><td>1.02</td>
-        <td>0.13</td><td>7.38</td>
-        <td>0.12</td><td>14.63</td>
-        <td>0.44</td><td>1.15</td></tr><tr><td>VAN</td><td>Zeev Buium</td>
-        <td>2.56</td><td>2.40</td>
-        <td>2.17</td>
-        <td>2.57</td><td>39</td>
-        <td>2.55</td><td>37</td><td>0.02</td>
-        <td>0.14</td><td>7.35</td>
-        <td>0.34</td><td>16.34</td>
-        <td>0.45</td><td>2.27</td></tr><tr><td>VGK</td><td>Alexander Holtz</td>
-        <td>5.51</td><td>4.67</td>
-        <td>5.73</td>
-        <td>4.29</td><td>16</td>
-        <td>7.31</td><td>12</td><td>-3.02</td>
-        <td>0.95</td><td>13.18</td>
-        <td>4.33</td><td>10.89</td>
-        <td>1.77</td><td>0.45</td></tr><tr><td>VGK</td><td>Braeden Bowman</td>
-        <td>5.38</td><td>5.84</td>
-        <td>6.70</td>
-        <td>5.31</td><td>26</td>
-        <td>5.45</td><td>28</td><td>-0.14</td>
-        <td>0.92</td><td>11.12</td>
-        <td>5.12</td><td>12.59</td>
-        <td>3.19</td><td>1.27</td></tr><tr><td>VGK</td><td>Brayden McNabb</td>
-        <td>4.07</td><td>6.61</td>
-        <td>5.05</td>
-        <td>4.11</td><td>32</td>
-        <td>4.03</td><td>31</td><td>0.09</td>
-        <td>0.21</td><td>10.56</td>
-        <td>0.28</td><td>17.31</td>
-        <td>3.57</td><td>0.07</td></tr><tr><td>VGK</td><td>Brett Howden</td>
-        <td>4.52</td><td>4.13</td>
-        <td>5.27</td>
-        <td>3.95</td><td>30</td>
-        <td>5.15</td><td>28</td><td>-1.19</td>
-        <td>0.65</td><td>8.56</td>
-        <td>3.54</td><td>12.57</td>
-        <td>0.93</td><td>0.65</td></tr><tr><td>VGK</td><td>Ivan Barbashev</td>
-        <td>5.74</td><td>6.46</td>
-        <td>6.11</td>
-        <td>6.34</td><td>41</td>
-        <td>5.13</td><td>41</td><td>1.21</td>
-        <td>0.73</td><td>10.70</td>
-        <td>4.01</td><td>14.78</td>
-        <td>1.45</td><td>0.85</td></tr><tr><td>VGK</td><td>Jack Eichel</td>
-        <td>9.61</td><td>9.39</td>
-        <td>7.98</td>
-        <td>10.83</td><td>36</td>
-        <td>8.40</td><td>38</td><td>2.43</td>
-        <td>0.85</td><td>17.16</td>
-        <td>2.94</td><td>14.60</td>
-        <td>1.25</td><td>3.40</td></tr><tr><td>VGK</td><td>Jeremy Lauzon</td>
-        <td>4.05</td><td>4.95</td>
-        <td>5.67</td>
-        <td>4.03</td><td>36</td>
-        <td>4.09</td><td>32</td><td>-0.06</td>
-        <td>0.21</td><td>10.05</td>
-        <td>0.53</td><td>15.02</td>
-        <td>0.00</td><td>0.02</td></tr><tr><td>VGK</td><td>Marc Gatcomb</td>
-        <td>6.50</td><td>6.53</td>
-        <td>10.10</td>
-        <td>6.53</td><td>24</td>
-        <td>6.47</td><td>25</td><td>0.06</td>
-        <td>0.71</td><td>11.29</td>
-        <td>3.80</td><td>9.98</td>
-        <td>34.20</td><td>0.03</td></tr><tr><td>VGK</td><td>Mark Stone</td>
-        <td>6.05</td><td>4.78</td>
-        <td>4.99</td>
-        <td>6.22</td><td>31</td>
-        <td>5.87</td><td>29</td><td>0.35</td>
-        <td>0.80</td><td>11.73</td>
-        <td>3.89</td><td>13.38</td>
-        <td>3.74</td><td>3.19</td></tr><tr><td>VGK</td><td>Mitch Marner</td>
-        <td>6.02</td><td>7.49</td>
-        <td>7.62</td>
-        <td>6.64</td><td>41</td>
-        <td>5.40</td><td>40</td><td>1.24</td>
-        <td>0.64</td><td>12.96</td>
-        <td>3.04</td><td>13.66</td>
-        <td>0.78</td><td>3.38</td></tr><tr><td>VGK</td><td>Nic Dowd</td>
-        <td>4.04</td><td>4.88</td>
-        <td>5.11</td>
-        <td>3.32</td><td>40</td>
-        <td>4.89</td><td>35</td><td>-1.57</td>
-        <td>0.59</td><td>8.34</td>
-        <td>2.96</td><td>11.89</td>
-        <td>0.00</td><td>0.06</td></tr><tr><td>VGK</td><td>Noah Hanifin</td>
-        <td>5.17</td><td>4.75</td>
-        <td>6.14</td>
-        <td>5.25</td><td>37</td>
-        <td>5.08</td><td>34</td><td>0.16</td>
-        <td>0.19</td><td>12.03</td>
-        <td>0.40</td><td>18.97</td>
-        <td>1.51</td><td>0.79</td></tr><tr><td>VGK</td><td>Parker Wotherspoon</td>
-        <td>2.56</td><td>1.70</td>
-        <td>2.65</td>
-        <td>2.54</td><td>40</td>
-        <td>2.57</td><td>40</td><td>-0.03</td>
-        <td>0.09</td><td>6.32</td>
-        <td>0.04</td><td>17.32</td>
-        <td>0.46</td><td>0.05</td></tr><tr><td>VGK</td><td>Rasmus Andersson</td>
-        <td>5.65</td><td>4.47</td>
-        <td>4.84</td>
-        <td>5.66</td><td>38</td>
-        <td>5.64</td><td>43</td><td>0.03</td>
-        <td>0.31</td><td>13.31</td>
-        <td>0.80</td><td>17.70</td>
-        <td>1.38</td><td>1.89</td></tr><tr><td>VGK</td><td>Shea Theodore</td>
-        <td>5.06</td><td>4.75</td>
-        <td>5.54</td>
-        <td>5.08</td><td>35</td>
-        <td>5.03</td><td>35</td><td>0.05</td>
-        <td>0.26</td><td>12.36</td>
-        <td>0.51</td><td>18.31</td>
-        <td>0.18</td><td>1.26</td></tr><tr><td>VGK</td><td>Tomas Hertl</td>
-        <td>6.85</td><td>8.23</td>
-        <td>8.43</td>
-        <td>7.24</td><td>41</td>
-        <td>6.46</td><td>41</td><td>0.78</td>
-        <td>0.92</td><td>13.99</td>
-        <td>5.15</td><td>12.50</td>
-        <td>3.13</td><td>3.26</td></tr><tr><td>VGK</td><td>Victor Olofsson</td>
-        <td>7.11</td><td>6.75</td>
-        <td>7.49</td>
-        <td>8.03</td><td>39</td>
-        <td>6.25</td><td>39</td><td>1.78</td>
-        <td>0.76</td><td>12.83</td>
-        <td>3.45</td><td>11.15</td>
-        <td>1.48</td><td>1.99</td></tr><tr><td>VGK</td><td>William Karlsson</td>
-        <td>8.76</td><td>8.76</td>
-        <td>8.41</td>
-        <td>12.00</td><td>8</td>
-        <td>4.84</td><td>6</td><td>7.16</td>
-        <td>0.71</td><td>14.97</td>
-        <td>3.65</td><td>11.74</td>
-        <td>0.95</td><td>0.95</td></tr></tbody></table></div></main></body></html>
+        <td>1.16</td><td>2.70</td></tr></tbody></table></div></main></body></html>
