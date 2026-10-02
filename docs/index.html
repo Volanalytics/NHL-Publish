@@ -22,18 +22,18 @@ table{width:100%;border-collapse:collapse;min-width:720px}th,td{padding:9px;bord
 </style></head>
         <body><header><h1>NHL V2 Dashboard</h1><nav><a href="index.html">NHL V2 Dashboard</a> <a href="games.html">Games</a> <a href="players.html">Players</a> <a href="form.html">Form</a> <a href="goalies.html">Goalies</a> <a href="ev.html">EV</a> <a href="analysis.html">Daily Analysis</a> <a href="betting.html">Betting Guide</a> <a href="tracking.html">Tracking</a></nav></header>
         <main><div class="card"><div class="gamehead"><h2>Production status</h2>
-      <span class="pill">FINAL PREGAME</span></div>
-      <p class="ok"><b>READY</b> · run COMPLETED</p>
+      <span class="pill">PRELIMINARY</span></div>
+      <p class="warn"><b>DEGRADED_GOALIE_SOURCE</b> · run DEGRADED</p>
       <div class="grid">
-        <div class="metric"><b>READY</b><span>Lineup readiness</span></div>
-        <div class="metric"><b>100.0%</b><span>Minimum lineup coverage</span></div>
-        <div class="metric"><b>AVAILABLE</b><span>Goalie source</span></div>
-        <div class="metric"><b>NO_RESOLUTION</b><span>Goalie resolution</span></div>
+        <div class="metric"><b>DEGRADED</b><span>Lineup readiness</span></div>
+        <div class="metric"><b>97.1%</b><span>Minimum lineup coverage</span></div>
+        <div class="metric"><b>PARTIAL_SOURCE_COVERAGE</b><span>Goalie source</span></div>
+        <div class="metric"><b>CONFIRMED</b><span>Goalie resolution</span></div>
       </div>
-      <p class="muted"><b>Market state:</b> OK · 0 qualified; 140 review.</p>
-    </div><div class="card"><h2>Latest pipeline attempt</h2><p><b>pregame</b> &middot; COMPLETED<br><span class='muted'>pregame-20261001T213002Z-7959e26c | nhl-v2.0.0-dev</span></p></div>
-            <div class="card"><h2>Production projections</h2><p class='ok'><b>Published production run:</b> pregame-20261001T213002Z-7959e26c</p><p>292 lineup-filtered player projections</p></div>
-            <div class="card"><h2>Database</h2><table><tr><th>V2 data</th><th>Rows</th></tr><tr><td>players</td><td>1,420</td></tr><tr><td>games</td><td>67</td></tr><tr><td>skater game logs</td><td>284,386</td></tr><tr><td>player features</td><td>17,372,341</td></tr><tr><td>production projection snapshots</td><td>24,908</td></tr><tr><td>goal probability snapshots</td><td>18,093</td></tr><tr><td>odds snapshots</td><td>2,952</td></tr><tr><td>market edges</td><td>2,556</td></tr><tr><td>intelligence items</td><td>6,599</td></tr><tr><td>betting analysis rows</td><td>2,472</td></tr><tr><td>publication runs</td><td>48</td></tr></table></div>
+      <p class="muted"><b>Market state:</b> OK · 0 qualified; 61 review.</p>
+    </div><div class="card"><h2>Latest pipeline attempt</h2><p><b>morning</b> &middot; DEGRADED<br><span class='muted'>morning-20261002T120805Z-e7b510b7 | nhl-v2.0.0-dev</span></p></div>
+            <div class="card"><h2>Production projections</h2><p class='ok'><b>Published production run:</b> morning-20261002T120805Z-e7b510b7</p><p>178 lineup-filtered player projections</p><p class='warn'><b>Data-quality warnings (1):</b></p><ul><li>ANA &middot; Noah Warren: NO_PRE_SLATE_HISTORY</li></ul></div>
+            <div class="card"><h2>Database</h2><table><tr><th>V2 data</th><th>Rows</th></tr><tr><td>players</td><td>1,420</td></tr><tr><td>games</td><td>72</td></tr><tr><td>skater game logs</td><td>284,386</td></tr><tr><td>player features</td><td>17,693,625</td></tr><tr><td>production projection snapshots</td><td>25,620</td></tr><tr><td>goal probability snapshots</td><td>18,805</td></tr><tr><td>odds snapshots</td><td>3,308</td></tr><tr><td>market edges</td><td>2,912</td></tr><tr><td>intelligence items</td><td>6,949</td></tr><tr><td>betting analysis rows</td><td>2,828</td></tr><tr><td>publication runs</td><td>50</td></tr></table></div>
             <div class="card"><h2>Foundation status</h2>
             <p class="ok">Google Sheets dependency: removed from V2 architecture.</p>
             <p class="ok">SQLite source of truth: initialized.</p>
